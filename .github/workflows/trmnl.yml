@@ -1,0 +1,76 @@
+name: BUILT checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      exhibit:
+        description: Live exhibit ID for previews (defaults to newest exhibit)
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate catalogue and rotation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r scripts/requirements.txt
+      - run: python scripts/validate.py
+      - run: node --test scripts/rotation.test.js
+
+  preview:
+    name: Preview ${{ matrix.device }} (${{ matrix.mode }})
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { device: og, mode: artwork }
+          - { device: x, mode: artwork }
+          - { device: x-portrait, mode: artwork }
+          - { device: frame, mode: artwork }
+          - { device: frame, mode: title }
+          - { device: frame, mode: overlay }
+          - { device: frame-portrait, mode: artwork }
+          - { device: frame-portrait, mode: title }
+          - { device: frame-portrait, mode: overlay }
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '4.0'
+      - uses: browser-actions/setup-firefox@v1
+      - run: python -m pip install -r scripts/requirements.txt
+      - name: Install ImageMagick and trmnlp
+        run: |
+          sudo apt-get update -o Acquire::Retries=2
+          sudo apt-get install --yes --no-install-recommends imagemagick
+          gem install trmnl_preview --version 0.34.0
+      - run: trmnlp lint
+      - name: Render device layouts
+        env:
+          BUILT_EXHIBIT: ${{ inputs.exhibit }}
+        run: bash scripts/render-previews.sh "${{ matrix.device }}" "${{ matrix.mode }}"
+      - uses: actions/upload-artifact@v6
+        if: always()
+        with:
+          name: built-${{ matrix.device }}-${{ matrix.mode }}
+          path: previews/
+          if-no-files-found: ignore

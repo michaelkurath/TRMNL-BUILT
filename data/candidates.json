@@ -1,0 +1,75 @@
+{
+  "candidates": [
+    {
+      "id": "sydney-opera-house",
+      "name": "Sydney Opera House",
+      "location": "Sydney, Australia",
+      "year": 1973,
+      "story": "The roof shells share the geometry of a single sphere, which made it possible to build them from precast concrete elements.",
+      "art_direction": "Show the ribbed shell assembly over Sydney Harbour, with an adjoining sail already clad so the shared geometry reads at a glance.",
+      "rating": { "recognition": 5, "visual_strength": 5, "story_strength": 5, "evidence_clarity": 5, "catalogue_fit": 5, "total": 25 },
+      "review": { "fact_check": true, "text_review": false, "image_review": false, "final_approval": false },
+      "sources": [
+        { "name": "Sydney Opera House · The spherical solution", "url": "https://www.sydneyoperahouse.com/our-story/the-spherical-solution" },
+        { "name": "Arup · Designing the Sydney Opera House", "url": "https://www.arup.com/en-us/projects/designing-the-sydney-opera-house/" },
+        { "name": "Sydney Opera House · 50 years of extraordinary moments", "url": "https://www.sydneyoperahouse.com/our-story/50-years-extraordinary-moments" }
+      ]
+    },
+    {
+      "id": "hoover-dam",
+      "name": "Hoover Dam",
+      "location": "Arizona–Nevada, United States",
+      "year": 1935,
+      "story": "Crews cast the dam in blocks and circulated water through embedded steel pipes to remove heat as the concrete cured. The dam was dedicated in 1935 and its first generator began operating in 1936.",
+      "art_direction": "Look into Black Canyon during a pour. Make the stepped concrete blocks and overhead cableways the focal points.",
+      "rating": { "recognition": 5, "visual_strength": 5, "story_strength": 5, "evidence_clarity": 5, "catalogue_fit": 5, "total": 25 },
+      "review": { "fact_check": true, "text_review": false, "image_review": false, "final_approval": false },
+      "sources": [
+        { "name": "US Bureau of Reclamation · Concrete", "url": "https://www.usbr.gov/lc/hooverdam/history/essays/concrete.html" },
+        { "name": "US Bureau of Reclamation · Construction chronology", "url": "https://www.usbr.gov/lc/hooverdam/history/articles/chrono.html" }
+      ]
+    },
+    {
+      "id": "gotthard-base-tunnel",
+      "name": "Gotthard Base Tunnel",
+      "location": "Swiss Alps, Switzerland",
+      "year": 2016,
+      "story": "Work proceeded in parallel on several tunnel sections. Tunnel-boring machines and drill-and-blast excavation were used along the route.",
+      "art_direction": "Use a low viewpoint in the tunnel behind a boring machine near the rock face. Distinguish the working face from the finished rail tunnel.",
+      "rating": { "recognition": 4, "visual_strength": 4, "story_strength": 5, "evidence_clarity": 5, "catalogue_fit": 5, "total": 23 },
+      "review": { "fact_check": true, "text_review": false, "image_review": false, "final_approval": false },
+      "sources": [
+        { "name": "Swiss Federal Department of the Environment, Transport, Energy and Communications · New Rail Link", "url": "https://www.uvek.admin.ch/en/nrla" },
+        { "name": "Implenia · Official opening and construction methods", "url": "https://implenia.com/en/media/news-article/implenia-joins-the-celebrations-official-opening-of-the-gotthard-base-tunnel/" }
+      ]
+    },
+    {
+      "id": "guggenheim-museum-bilbao",
+      "name": "Guggenheim Museum Bilbao",
+      "location": "Bilbao, Spain",
+      "year": 1997,
+      "story": "The design team used CATIA, software developed for aerospace, to translate the museum's curved forms into geometry that could be built.",
+      "art_direction": "Show the riverfront construction site with titanium cladding on part of the structure and exposed framing beside it.",
+      "rating": { "recognition": 4, "visual_strength": 5, "story_strength": 4, "evidence_clarity": 5, "catalogue_fit": 5, "total": 23 },
+      "review": { "fact_check": true, "text_review": false, "image_review": false, "final_approval": false },
+      "sources": [
+        { "name": "Guggenheim Museum Bilbao · The construction", "url": "https://www.guggenheim-bilbao.eus/en/the-building/the-construction" },
+        { "name": "Guggenheim Museum Bilbao · Frank Gehry", "url": "https://www.guggenheim-bilbao.eus/en/did-you-know/frank-gehry" }
+      ]
+    },
+    {
+      "id": "thames-barrier",
+      "name": "Thames Barrier",
+      "location": "London, United Kingdom",
+      "year": 1984,
+      "story": "Engineers used gates that rotate up from the riverbed to block storm surges while leaving navigation spans clear when open. The barrier became operational in 1982 and officially opened in 1984.",
+      "art_direction": "Show a raised steel gate between two of the silver piers from a low river viewpoint so the gate profile is visible.",
+      "rating": { "recognition": 4, "visual_strength": 4, "story_strength": 4, "evidence_clarity": 5, "catalogue_fit": 5, "total": 22 },
+      "review": { "fact_check": true, "text_review": false, "image_review": false, "final_approval": false },
+      "sources": [
+        { "name": "The London Archives · Thames Barrier", "url": "https://www.thelondonarchives.org/your-research/thames-barrier" },
+        { "name": "Environment Agency · Official opening anniversary", "url": "https://www.gov.uk/government/news/the-thames-barrier-protecting-london-and-the-thames-estuary-for-40-years" }
+      ]
+    }
+  ]
+}

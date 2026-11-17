@@ -24,6 +24,35 @@
           "url": "https://www.greisch.com/en/projet/millau-viaduct/"
         }
       ]
+    },
+    {
+      "id": "sydney-opera-house",
+      "name": "Sydney Opera House",
+      "location": "Sydney, Australia",
+      "year": 1973,
+      "caption": "The roof shells share the geometry of a single sphere.",
+      "detail": "The common geometry let crews cast standardized concrete rib segments on site and lift them into place. The Opera House opened in 1973.",
+      "image_alt": "Artistic reconstruction of the Sydney Opera House roof under construction, with exposed concrete ribs above the harbour.",
+      "artwork": {
+        "landscape": "assets/exhibits/sydney-opera-house-frame-landscape.jpg",
+        "portrait": "assets/exhibits/sydney-opera-house-frame-portrait.jpg",
+        "wide": "assets/exhibits/sydney-opera-house-wide.jpg",
+        "standard": "assets/exhibits/sydney-opera-house-standard.jpg"
+      },
+      "sources": [
+        {
+          "name": "Sydney Opera House · The spherical solution",
+          "url": "https://www.sydneyoperahouse.com/our-story/the-spherical-solution"
+        },
+        {
+          "name": "Arup · Designing the Sydney Opera House",
+          "url": "https://www.arup.com/en-us/projects/designing-the-sydney-opera-house/"
+        },
+        {
+          "name": "Sydney Opera House · 50 years of extraordinary moments",
+          "url": "https://www.sydneyoperahouse.com/our-story/50-years-extraordinary-moments"
+        }
+      ]
     }
   ]
 }

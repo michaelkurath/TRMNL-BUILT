@@ -1,29 +1,41 @@
 const assert = require("node:assert/strict");
 const { test } = require("node:test");
 const { items } = require("../data/trmnl.json");
-const { run, selectExhibit } = require("../src/transform");
+const { run } = require("../src/transform");
 
-test("empty polling data has an empty selection", () => {
-  assert.deepEqual(run({ items: [] }), { selected_entry: null });
+test("empty polling data leaves the saved cursor untouched", () => {
+  assert.deepEqual(run({ items: [], trmnl: { state: { last_exhibit_id: "anything" } } }),
+    { selected_entry: null });
   assert.deepEqual(run(), { selected_entry: null });
 });
 
-test("selection stays fixed for a UTC day, advances at midnight, and wraps", () => {
-  const other = { ...items[0], name: "Second test exhibit" };
-  const pool = [items[0], other];
-  for (const [time, expected] of [
-    ["2026-11-16T23:59:59Z", items[0].name],
-    ["2026-11-17T00:00:00Z", items[0].name],
-    ["2026-11-17T23:59:59Z", items[0].name],
-    ["2026-11-18T00:00:00Z", other.name],
-    ["2026-11-19T00:00:00Z", items[0].name],
-  ]) {
-    assert.equal(selectExhibit(pool, new Date(time)).name, expected);
+test("each refresh advances in catalogue order and wraps using Saved State", () => {
+  let state = {};
+  for (const exhibit of [...items, items[0]]) {
+    const result = run({ items, trmnl: { state } });
+    assert.equal(result.selected_entry.name, exhibit.name);
+    assert.deepEqual(result.trmnl_state, { last_exhibit_id: exhibit.id });
+    state = result.trmnl_state;
   }
 });
 
+test("an existing install can continue from its last exhibit on the first refresh", () => {
+  const result = run({
+    items,
+    trmnl: { previous_merge_variables: { selected_entry: { name: items[0].name } } }
+  });
+  assert.equal(result.selected_entry.name, items[1 % items.length].name);
+});
+
+test("a removed exhibit restarts at the first entry and a one-entry catalogue wraps", () => {
+  const unknown = run({ items, trmnl: { state: { last_exhibit_id: "removed-exhibit" } } });
+  assert.equal(unknown.selected_entry.name, items[0].name);
+  const only = run({ items: [items[0]], trmnl: { state: unknown.trmnl_state } });
+  assert.equal(only.selected_entry.name, items[0].name);
+});
+
 test("the transform sends the four published images and trims source metadata", () => {
-  const entry = selectExhibit(items.slice(0, 1), new Date());
+  const { selected_entry: entry } = run({ items: [items[0]] });
   const artworkFields = {
     landscape: "image_url_frame_landscape",
     portrait: "image_url_frame_portrait",

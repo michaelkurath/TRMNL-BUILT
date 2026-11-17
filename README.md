@@ -2,7 +2,7 @@
 
 **What it took to make it real.**
 
-BUILT is a daily illustrated exhibit about a completed landmark and the design or construction decision that made it possible. The colour illustrations depict construction in progress.
+BUILT shows an illustrated exhibit about a completed landmark and the design or construction decision that made it possible. The colour illustrations depict construction in progress.
 
 - **Frame** — separately composed landscape and portrait colour artwork. Choose Artwork only, optionally with a title, or Caption overlay.
 - **OG and X** — monochrome artwork and a short construction story. The X full layout also shows a construction detail. All four standard TRMNL layouts are included.
@@ -21,7 +21,7 @@ BUILT is a daily illustrated exhibit about a completed landmark and the design o
 2. In **Edit Markup**, check that **Serverless** shows Node and the transform from `src/transform.js`. If the code is missing, paste the transform there. Check that the polling URL points to `data/trmnl.json` on `main`.
 3. Force-refresh the preview. Automatic display edition selects the Frame gallery in full view. A manual override and the Frame presentation options are available in settings.
 
-The catalogue rotates by UTC date at the next refresh after midnight. Saved State is unnecessary. Catalogue order determines rotation.
+Each successful TRMNL data refresh advances to the next exhibit in catalogue order, then wraps to the beginning. The Node transform uses TRMNL Saved State to remember the last exhibit. **Force Refresh** in the plugin settings fetches new data and advances the rotation. Reloading a cached preview or viewing a different layout uses the last rendered exhibit.
 
 ## Catalogue and artwork
 

@@ -1,25 +1,28 @@
 const ASSET_ROOT = "https://raw.githubusercontent.com/michaelkurath/TRMNL-BUILT/main/";
-const DAY_MS = 86_400_000;
-const ROTATION_START = Date.UTC(2026, 10, 17);
 
-function selectExhibit(items, now) {
-  if (!Array.isArray(items) || items.length === 0) return null;
+function run(input) {
+  const items = input?.items;
+  if (!Array.isArray(items) || items.length === 0) return { selected_entry: null };
 
-  const elapsedDays = Math.max(0, Math.floor((now.getTime() - ROTATION_START) / DAY_MS));
-  const { name, location, year, caption, detail, image_alt, artwork } =
-    items[elapsedDays % items.length];
+  const lastId = input.trmnl?.state?.last_exhibit_id;
+  const previousName = input.trmnl?.previous_merge_variables?.selected_entry?.name;
+  // Existing installations can start from their last dated exhibit before a cursor is saved.
+  const lastIndex = lastId
+    ? items.findIndex((item) => item.id === lastId)
+    : items.findIndex((item) => item.name === previousName);
+  const { id, name, location, year, caption, detail, image_alt, artwork } =
+    items[(lastIndex + 1) % items.length];
 
   return {
-    name, location, year, caption, detail, image_alt,
-    image_url_frame_landscape: ASSET_ROOT + artwork.landscape,
-    image_url_frame_portrait: ASSET_ROOT + artwork.portrait,
-    image_url_wide: ASSET_ROOT + artwork.wide,
-    image_url_standard: ASSET_ROOT + artwork.standard
+    selected_entry: {
+      name, location, year, caption, detail, image_alt,
+      image_url_frame_landscape: ASSET_ROOT + artwork.landscape,
+      image_url_frame_portrait: ASSET_ROOT + artwork.portrait,
+      image_url_wide: ASSET_ROOT + artwork.wide,
+      image_url_standard: ASSET_ROOT + artwork.standard
+    },
+    trmnl_state: { last_exhibit_id: id }
   };
 }
 
-function run(input) {
-  return { selected_entry: selectExhibit(input?.items, new Date()) };
-}
-
-if (typeof module !== "undefined") module.exports = { run, selectExhibit };
+if (typeof module !== "undefined") module.exports = { run };

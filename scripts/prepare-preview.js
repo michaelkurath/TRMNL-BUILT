@@ -1,7 +1,7 @@
 // Preview local artwork and a fixed exhibit in a disposable CI checkout.
 const { writeFileSync } = require("node:fs");
 const { items } = require("../data/trmnl.json");
-const { selectExhibit } = require("../src/transform");
+const { run } = require("../src/transform");
 
 const slug = process.env.BUILT_EXHIBIT;
 const mode = process.env.BUILT_FRAME_MODE || "artwork";
@@ -9,7 +9,7 @@ const exhibit = slug ? items.find(({ id }) => id === slug) : items.at(-1);
 if (!exhibit) throw new Error(`Unknown live exhibit: ${slug}`);
 if (!["artwork", "title", "overlay"].includes(mode)) throw new Error(`Unknown Frame mode: ${mode}`);
 
-const selected = selectExhibit([exhibit], new Date());
+const { selected_entry: selected } = run({ items: [exhibit] });
 for (const key of Object.keys(selected).filter(key => key.startsWith("image_url_"))) {
   const asset = selected[key].split("/main/")[1];
   selected[key] = `http://127.0.0.1:4568/${asset}`;

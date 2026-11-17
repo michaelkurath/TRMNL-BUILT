@@ -1,8 +1,12 @@
 {% if selected %}
   {{ classic_styles }}
   <div class="layout built-classic built-classic--vertical">
-    <img class="image image--contain image-dither w--full h--full built-classic__art" src="{{ selected.image_url_standard | escape }}" alt="{{ selected.image_alt | escape }}">
-    <div class="built-classic__label">{{ classic_label }}</div>
+    <img class="image image--contain image-dither w--full h--full built-classic__art portrait:hidden" src="{{ selected.image_url_standard | escape }}" alt="{{ selected.image_alt | escape }}">
+    <img class="image image--contain image-dither w--full h--full built-classic__art built-classic__portrait-source landscape:hidden" src="{{ selected.image_url_frame_portrait | default: selected.image_url_standard | escape }}" alt="{{ selected.image_alt | escape }}">
+    <div class="built-classic__label">
+      {{ compact_label }}
+      <p class="description description--large lg:description--xxlarge hidden lg:block">{{ selected.detail | escape }}</p>
+    </div>
   </div>
 {% else %}
   {{ empty_exhibit }}

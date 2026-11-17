@@ -102,9 +102,14 @@
   .trmnl .layout.built-classic--horizontal {
     grid-template-columns: minmax(0, 43fr) minmax(0, 57fr);
   }
+  .trmnl .screen--portrait .layout.built-classic--horizontal {
+    grid-template-columns: none;
+    grid-template-rows: minmax(0, 1fr) auto;
+  }
   .built-classic__art {
     min-height: 0;
   }
+  .built-classic__portrait-source { filter: grayscale(1); }
   .built-classic__label {
     padding: 0.45rem 0.65rem;
     color: #171717;
@@ -117,14 +122,12 @@
     font: bold clamp(19px, 5.3cqmin, 64px)/1.02 Georgia, serif;
   }
   .built-classic__caption,
-  .built-classic__detail {
+  .built-classic--full .built-classic__detail {
     margin: 0.2em 0 0;
     font: 500 clamp(13px, 2.65cqmin, 34px)/1.2 system-ui, sans-serif;
   }
   .built-classic--horizontal .built-classic__label { align-self: center; }
   .built-classic--quadrant .built-classic__label { padding-block: 0.2rem; }
-  .built-classic--quadrant .built-classic__name { font-size: clamp(16px, 4.5cqmin, 44px); }
-  .built-classic--quadrant .built-classic__caption { font-size: clamp(11px, 2.3cqmin, 26px); }
 </style>
 {% endcapture %}
 
@@ -132,6 +135,12 @@
   <div class="built-classic__meta">{{ selected.location | escape }} · {{ selected.year }}</div>
   <h1 class="built-classic__name">{{ selected.name | escape }}</h1>
   <p class="built-classic__caption">{{ selected.caption | escape }}</p>
+{% endcapture %}
+
+{% capture compact_label %}
+  <div class="label lg:label--large">{{ selected.location | escape }} · {{ selected.year }}</div>
+  <h1 class="title title--large lg:title--xxlarge">{{ selected.name | escape }}</h1>
+  <p class="description description--large lg:description--xxlarge">{{ selected.caption | escape }}</p>
 {% endcapture %}
 
 {% capture built_mark %}

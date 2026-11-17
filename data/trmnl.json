@@ -78,6 +78,47 @@
           "url": "https://www.usbr.gov/lc/hooverdam/history/articles/chrono.html"
         }
       ]
+    },
+    {
+      "id": "gotthard-base-tunnel",
+      "name": "Gotthard Base Tunnel",
+      "location": "Swiss Alps, Switzerland",
+      "year": 2016,
+      "caption": "Gripper shoes braced against the tunnel walls so the cutterhead could push into rock.",
+      "detail": "Sissi broke through the east tube in 2010. The tunnel officially opened on 1 June 2016, and scheduled trains began running on 11 December.",
+      "image_alt": "Artistic cutaway reconstruction of the Sissi tunnel borer, with a circular cutterhead against the rock face, thrust cylinders and a gripper shoe braced against the sidewall.",
+      "artwork": {
+        "landscape": "assets/exhibits/gotthard-base-tunnel-frame-landscape.jpg",
+        "portrait": "assets/exhibits/gotthard-base-tunnel-frame-portrait.jpg",
+        "wide": "assets/exhibits/gotthard-base-tunnel-wide.jpg",
+        "standard": "assets/exhibits/gotthard-base-tunnel-standard.jpg"
+      },
+      "sources": [
+        {
+          "name": "Swiss Federal Department of the Environment, Transport, Energy and Communications · New Rail Link",
+          "url": "https://www.uvek.admin.ch/en/nrla"
+        },
+        {
+          "name": "Implenia · Official opening and construction methods",
+          "url": "https://implenia.com/en/media/news-article/implenia-joins-the-celebrations-official-opening-of-the-gotthard-base-tunnel/"
+        },
+        {
+          "name": "Herrenknecht · Gotthard Base Tunnel project report",
+          "url": "https://www.herrenknecht.com/fileadmin/user_upload/2010-10-15_Gotthard_project_report_en.pdf"
+        },
+        {
+          "name": "Swiss Museum of Transport · Sissi cutterhead",
+          "url": "https://sammlung.verkehrshaus.ch/en/collection/item/151780/"
+        },
+        {
+          "name": "US Federal Highway Administration · Road tunnel technical manual, appendix D",
+          "url": "https://www.govinfo.gov/content/pkg/GOVPUB-TD2-PURL-gpo93381/pdf/GOVPUB-TD2-PURL-gpo93381.pdf"
+        },
+        {
+          "name": "Swiss Federal Office of Transport · Scheduled operation permit",
+          "url": "https://www.admin.ch/de/nsb?id=64811"
+        }
+      ]
     }
   ]
 }

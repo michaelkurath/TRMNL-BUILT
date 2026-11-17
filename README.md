@@ -18,6 +18,7 @@ Set **Exhibit rotation** to **My Selection** and open **Choose exhibits**. Copy 
 | Millau Viaduct | Launching the steel deck from both sides of the Tarn valley |
 | Sydney Opera House | Using a common spherical geometry to build the roof shells |
 | Hoover Dam | Cooling concrete blocks through embedded steel pipes |
+| Gotthard Base Tunnel | Bracing a tunnel boring machine against the rock to advance its cutterhead |
 
 ## Install BUILT
 

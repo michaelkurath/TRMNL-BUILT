@@ -1,20 +1,6 @@
 {
   "candidates": [
     {
-      "id": "gotthard-base-tunnel",
-      "name": "Gotthard Base Tunnel",
-      "location": "Swiss Alps, Switzerland",
-      "year": 2016,
-      "story": "Work proceeded in parallel on several tunnel sections. Tunnel-boring machines and drill-and-blast excavation were used along the route.",
-      "art_direction": "Use a low viewpoint in the tunnel behind a boring machine near the rock face. Distinguish the working face from the finished rail tunnel.",
-      "rating": { "recognition": 4, "visual_strength": 4, "story_strength": 5, "evidence_clarity": 5, "catalogue_fit": 5, "total": 23 },
-      "review": { "fact_check": true, "text_review": false, "image_review": false, "final_approval": false },
-      "sources": [
-        { "name": "Swiss Federal Department of the Environment, Transport, Energy and Communications · New Rail Link", "url": "https://www.uvek.admin.ch/en/nrla" },
-        { "name": "Implenia · Official opening and construction methods", "url": "https://implenia.com/en/media/news-article/implenia-joins-the-celebrations-official-opening-of-the-gotthard-base-tunnel/" }
-      ]
-    },
-    {
       "id": "guggenheim-museum-bilbao",
       "name": "Guggenheim Museum Bilbao",
       "location": "Bilbao, Spain",
@@ -40,6 +26,21 @@
       "sources": [
         { "name": "The London Archives · Thames Barrier", "url": "https://www.thelondonarchives.org/your-research/thames-barrier" },
         { "name": "Environment Agency · Official opening anniversary", "url": "https://www.gov.uk/government/news/the-thames-barrier-protecting-london-and-the-thames-estuary-for-40-years" }
+      ]
+    },
+    {
+      "id": "gateway-arch",
+      "name": "Gateway Arch",
+      "location": "St. Louis, Missouri, United States",
+      "year": 1965,
+      "story": "Self-climbing derricks raised the stainless-steel sections up each leg. A temporary steel truss braced the legs as they curved inward. The final section went in on 28 October 1965 and the north tram opened to the public on 24 July 1967.",
+      "art_direction": "Show the two tapering stainless-steel legs from the riverfront before the crown is closed. Keep the horizontal lattice brace and the track-mounted creeper derricks distinct, using National Park Service construction photographs for their geometry and positions.",
+      "rating": { "recognition": 5, "visual_strength": 5, "story_strength": 5, "evidence_clarity": 5, "catalogue_fit": 4, "total": 24 },
+      "review": { "fact_check": true, "text_review": false, "image_review": false, "final_approval": false },
+      "sources": [
+        { "name": "US National Park Service · Arch architecture and erection sequence", "url": "https://www.nps.gov/jeff/planyourvisit/architecture.htm" },
+        { "name": "US National Park Service · Gateway Arch completion", "url": "https://www.nps.gov/jeff/learn/historyculture/the-gateway-arch-celebrates-50th-year-of-completion.htm" },
+        { "name": "Gateway Arch · Project and tram timeline", "url": "https://www.gatewayarch.com/about/arch-history/" }
       ]
     }
   ]

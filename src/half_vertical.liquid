@@ -1,0 +1,10 @@
+{% if selected %}
+  {{ classic_styles }}
+  <div class="layout built-classic built-classic--vertical">
+    <img class="image image-dither built-classic__art" src="{{ selected.image_url_standard | escape }}" alt="{{ selected.image_alt | escape }}">
+    <div class="built-classic__label">{{ classic_label }}</div>
+  </div>
+{% else %}
+  {{ empty_exhibit }}
+{% endif %}
+{{ built_title_bar }}

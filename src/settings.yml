@@ -1,0 +1,44 @@
+---
+name: BUILT
+description: What it took to make it real.
+strategy: polling
+polling_verb: get
+polling_url: https://raw.githubusercontent.com/michaelkurath/TRMNL-BUILT/main/data/trmnl.json
+framework_version: 3.3.1
+serverless_language: node
+no_screen_padding: 'no'
+dark_mode: 'no'
+static_data: '{}'
+refresh_interval: 60
+custom_fields:
+- keyname: author_bio
+  field_type: author_bio
+  name: About BUILT
+  category: custom,education
+  description: A daily illustrated exhibit about the engineering decisions behind completed landmarks and infrastructure.
+  github_url: https://github.com/michaelkurath/TRMNL-BUILT
+- keyname: display_edition
+  name: Display edition
+  field_type: select
+  options:
+  - Automatic: auto
+  - Classic: classic
+  - Frame: frame
+  default: auto
+  description: Automatic uses the gallery on TRMNL Frame. The other options override the full-screen layout.
+  optional: true
+- keyname: frame_caption
+  name: Frame presentation
+  field_type: select
+  options:
+  - Artwork only: artwork
+  - Caption overlay: overlay
+  default: artwork
+  description: Add a short exhibit label in the upper-right corner.
+  optional: true
+- keyname: frame_show_title
+  name: Show title in Artwork only
+  field_type: boolean
+  default: false
+  description: Add the exhibit title in Artwork only mode.
+  optional: true

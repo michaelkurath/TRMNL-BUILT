@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": "millau-viaduct",
+      "name": "Millau Viaduct",
+      "location": "Aveyron, France",
+      "year": 2004,
+      "caption": "Crews launched the steel deck from both sides of the Tarn valley.",
+      "detail": "Temporary steel piers shortened the spans during launching. The two halves met above the Tarn in May 2004.",
+      "image_alt": "Illustration of Millau Viaduct’s steel deck advancing across the Tarn valley on temporary supports",
+      "artwork": {
+        "landscape": "assets/exhibits/millau-viaduct-frame-landscape.jpg",
+        "portrait": "assets/exhibits/millau-viaduct-frame-portrait.jpg",
+        "wide": "assets/exhibits/millau-viaduct-wide.jpg",
+        "standard": "assets/exhibits/millau-viaduct-standard.jpg"
+      },
+      "sources": [
+        {
+          "name": "Eiffage Génie Civil · Millau Viaduct",
+          "url": "https://www.eiffagegeniecivil.com/milau-viaduct"
+        },
+        {
+          "name": "Bureau Greisch · Millau Viaduct",
+          "url": "https://www.greisch.com/en/projet/millau-viaduct/"
+        }
+      ]
+    }
+  ]
+}

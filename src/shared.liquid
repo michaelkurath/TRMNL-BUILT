@@ -144,9 +144,15 @@
   <p class="built-classic__caption">{{ selected.caption | escape }}</p>
 {% endcapture %}
 
+{% capture built_mark %}
+  <svg class="w--[20px] h--[20px] shrink-0" viewBox="0 0 64 64" aria-hidden="true">
+    <path fill="currentColor" d="M4 14h56v10h-5v32H45V43a13 13 0 0 0-26 0v13H9V24H4z"/>
+  </svg>
+{% endcapture %}
+
 {% capture built_title_bar %}
 <div class="title_bar built-title-bar">
-  <span class="title">BUILT</span>
+  <span class="title flex flex--row flex--center-y gap--xsmall">{{ built_mark }} BUILT</span>
 </div>
 {% endcapture %}
 

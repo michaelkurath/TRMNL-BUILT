@@ -9,9 +9,7 @@ BUILT shows an illustrated exhibit about a completed landmark and the design or 
 
 ## Choose exhibits
 
-Set **Exhibit rotation** to **My Selection** and choose one or more titles in **My exhibits**. A single title stays on screen. Several titles use the normal refresh and rotation rules. **Full Collection** is the default, and it also applies when no selected titles are available. Choose **Frame** under **Display edition** to use **My Frame exhibits**, which lists exhibits with both colour orientations.
-
-The picker options are generated from the live catalogue and published to the `exhibit-picker-data` branch. The publishing workflow updates that branch when the catalogue changes on `main`.
+Set **Exhibit rotation** to **My Selection** and open **Choose exhibits**. Copy your selection from the catalogue picker and paste it into **My exhibits**. A single title stays on screen. Several titles use the normal refresh and rotation rules. **Full Collection** is the default, and it also applies when no selected titles are available. Choose **Frame** under **Display edition** to use **My Frame exhibits**, which lists exhibits with both colour orientations.
 
 ## Live catalogue
 

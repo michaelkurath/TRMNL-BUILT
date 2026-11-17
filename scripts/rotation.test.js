@@ -65,13 +65,13 @@ test("My Selection pins one exhibit or advances only through the chosen exhibits
   }
 
   const classicOnly = { ...first, id: "classic-only", artwork: { ...first.artwork, portrait: null } };
-  Object.assign(custom_fields_values, { display_edition: "frame", exhibit_ids: classicOnly.id + "," + third.id });
+  Object.assign(custom_fields_values, { display_edition: "frame", frame_exhibit_ids: classicOnly.id + "," + third.id });
   for (let i = 0; i < 2; i++) {
     const result = run({ items: [classicOnly, ...items], trmnl });
     assert.equal(result.selected_entry.name, third.name);
     trmnl.state = result.trmnl_state;
   }
-  custom_fields_values.exhibit_ids = [];
+  custom_fields_values.frame_exhibit_ids = [];
   assert.equal(run({ items, trmnl }).selected_entry.name, first.name);
 
   Object.assign(custom_fields_values, { exhibit_mode: "all", exhibit_ids: [third.id] });

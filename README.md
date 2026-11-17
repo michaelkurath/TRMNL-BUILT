@@ -9,7 +9,7 @@ BUILT is a daily illustrated exhibit about a completed landmark and the design o
 
 ## Install the pilot
 
-1. Create a private plugin called **BUILT**, connect this repository in its GitHub sync card, and import the repository configuration. Leave the repository folder blank so the import uses `src/`.
+1. Open **BUILT** in TRMNL (plugin ID `543792`) and import this repository in its GitHub sync card. Leave the repository folder blank so the import uses `src/`. Import before clicking **Save** so TRMNL has the repository settings before it writes back to GitHub.
 2. In **Edit Markup**, check that **Serverless** shows Node and the transform from `src/transform.js`. If the code is missing, paste the transform there. Check that the polling URL points to `data/trmnl.json` on `main`.
 3. Force-refresh the preview. Automatic display edition selects the Frame gallery in full view. A manual override and the Frame presentation options are available in settings.
 

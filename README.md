@@ -2,22 +2,30 @@
 
 **What it took to make it real.**
 
-BUILT is a daily illustrated exhibit about a completed landmark and the design or construction decision that made it possible. The pilot covers the **Millau Viaduct**, whose steel deck was launched from both sides of the Tarn valley. The colour illustrations depict the bridge under construction.
+BUILT is a daily illustrated exhibit about a completed landmark and the design or construction decision that made it possible. The colour illustrations depict construction in progress.
 
 - **Frame** — separately composed landscape and portrait colour artwork. Choose Artwork only, optionally with a title, or Caption overlay.
 - **OG and X** — monochrome artwork and a short construction story. The X full layout also shows a construction detail. All four standard TRMNL layouts are included.
 
-## Install the pilot
+## Live catalogue
+
+| Exhibit | Construction story |
+| --- | --- |
+| Millau Viaduct | Launching the steel deck from both sides of the Tarn valley |
+| Sydney Opera House | Using a common spherical geometry to build the roof shells |
+| Hoover Dam | Cooling concrete blocks through embedded steel pipes |
+
+## Install BUILT
 
 1. Open **BUILT** in TRMNL (plugin ID `543792`) and import this repository in its GitHub sync card. Leave the repository folder blank so the import uses `src/`. Import before clicking **Save** so TRMNL has the repository settings before it writes back to GitHub.
 2. In **Edit Markup**, check that **Serverless** shows Node and the transform from `src/transform.js`. If the code is missing, paste the transform there. Check that the polling URL points to `data/trmnl.json` on `main`.
 3. Force-refresh the preview. Automatic display edition selects the Frame gallery in full view. A manual override and the Frame presentation options are available in settings.
 
-The catalogue rotates by UTC date at the next refresh after midnight. The pilot has one exhibit, so it appears every day until the catalogue grows. Saved State is unnecessary. Catalogue order determines rotation.
+The catalogue rotates by UTC date at the next refresh after midnight. Saved State is unnecessary. Catalogue order determines rotation.
 
 ## Catalogue and artwork
 
-The [catalogue](data/trmnl.json) records the display text, original artistic reconstructions and sources. Eiffage verifies the opening and launch milestones. Bureau Greisch documents the launch from both sides and the temporary works.
+The [catalogue](data/trmnl.json) records the display text, original artistic reconstructions and sources.
 
 Each entry uses a 2560 × 1440 landscape and a 1440 × 2560 portrait colour JPEG, with space in the upper-right for the caption. The classic layouts use 2:1 and 4:3 grayscale exports. Artwork is illustrative and may simplify construction details.
 

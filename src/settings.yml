@@ -47,4 +47,4 @@ custom_fields:
   optional: true
 name: BUILT
 description: What it took to make it real.
-refresh_interval: 60
+refresh_interval: 15

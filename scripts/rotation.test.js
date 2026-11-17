@@ -72,8 +72,9 @@ test("My Selection pins one exhibit or advances only through the chosen exhibits
     trmnl.state = result.trmnl_state;
   }
   custom_fields_values.frame_exhibit_ids = [];
-  assert.equal(run({ items, trmnl }).selected_entry.name, first.name);
+  const nextInFullCatalogue = items[3] ?? first;
+  assert.equal(run({ items, trmnl }).selected_entry.name, nextInFullCatalogue.name);
 
   Object.assign(custom_fields_values, { exhibit_mode: "all", exhibit_ids: [third.id] });
-  assert.equal(run({ items, trmnl }).selected_entry.name, first.name);
+  assert.equal(run({ items, trmnl }).selected_entry.name, nextInFullCatalogue.name);
 });

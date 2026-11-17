@@ -22,7 +22,7 @@ ARTWORK = {
 POLLING_URL = (
     "https://raw.githubusercontent.com/michaelkurath/TRMNL-BUILT/main/data/trmnl.json"
 )
-CUSTOM_FIELDS = {"author_bio", "display_edition", "frame_caption", "frame_show_title"}
+CUSTOM_FIELDS = {"author_bio", "display_edition", "exhibit_mode", "exhibit_ids", "frame_caption", "frame_show_title"}
 
 
 def require(condition, message):

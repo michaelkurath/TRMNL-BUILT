@@ -7,6 +7,12 @@ BUILT shows an illustrated exhibit about a completed landmark and the design or 
 - **Frame** — separately composed landscape and portrait colour artwork. Choose Artwork only, optionally with a title, or Caption overlay.
 - **OG and X** — monochrome artwork and a short construction story. The X full layout also shows a construction detail. All four standard TRMNL layouts are included.
 
+## Choose exhibits
+
+Set **Exhibit rotation** to **My Selection** and choose one or more titles in **My exhibits**. A single title stays on screen. Several titles use the normal refresh and rotation rules. **Full Collection** is the default, and it also applies when no selected titles are available. Choose **Frame** under **Display edition** to limit the picker to exhibits with both colour orientations.
+
+GitHub Pages serves the picker options. In **Settings → Pages**, set the source to **GitHub Actions** before importing recipe settings. The workflow regenerates the options when the live catalogue changes.
+
 ## Live catalogue
 
 | Exhibit | Construction story |

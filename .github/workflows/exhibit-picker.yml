@@ -1,0 +1,42 @@
+name: Publish exhibit picker options
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/trmnl.json'
+      - 'scripts/build-exhibit-options.js'
+      - '.github/workflows/exhibit-picker.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: exhibit-picker
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - run: node scripts/build-exhibit-options.js
+      - uses: actions/checkout@v6
+        with:
+          ref: exhibit-picker-data
+          path: picker-output
+      - name: Publish updated options
+        run: |
+          cp _site/exhibits-*.json picker-output/
+          git -C picker-output add exhibits-auto.json exhibits-frame.json
+          if git -C picker-output diff --cached --quiet; then exit 0; fi
+          git -C picker-output -c user.name='github-actions[bot]' \
+            -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+            commit -m "Update BUILT exhibit picker"
+          git -C picker-output push origin HEAD:exhibit-picker-data

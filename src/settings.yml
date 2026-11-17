@@ -49,7 +49,7 @@ custom_fields:
 - keyname: exhibit_ids
   name: My exhibits
   field_type: xhrSelect
-  endpoint: https://michaelkurath.github.io/TRMNL-BUILT/exhibits-auto.json
+  endpoint: https://raw.githubusercontent.com/michaelkurath/TRMNL-BUILT/exhibit-picker-data/exhibits-auto.json
   http_verb: GET
   exclude_csrf_token: true
   multiple: true
@@ -58,7 +58,7 @@ custom_fields:
 - keyname: frame_exhibit_ids
   name: My Frame exhibits
   field_type: xhrSelect
-  endpoint: https://michaelkurath.github.io/TRMNL-BUILT/exhibits-frame.json
+  endpoint: https://raw.githubusercontent.com/michaelkurath/TRMNL-BUILT/exhibit-picker-data/exhibits-frame.json
   http_verb: GET
   exclude_csrf_token: true
   multiple: true

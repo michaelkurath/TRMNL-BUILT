@@ -7,6 +7,10 @@ BUILT shows an illustrated exhibit about a completed landmark and the design or 
 - **Frame** — separately composed landscape and portrait colour artwork. Choose Artwork only, optionally with a title, or Caption overlay.
 - **OG and X** — monochrome artwork and a short construction story. The X full layout also shows a construction detail. All four standard TRMNL layouts are included.
 
+## Choose exhibits
+
+Set **Exhibit rotation** to **My Selection** and open **Choose exhibits**. Copy your selection from the catalogue picker and paste it into **My exhibits**. A single title stays on screen. Several titles use the normal refresh and rotation rules. **Full Collection** is the default, and it also applies when no selected titles are available. Choose **Frame** under **Display edition** to use **My Frame exhibits**, which lists exhibits with both colour orientations.
+
 ## Live catalogue
 
 | Exhibit | Construction story |

@@ -1,17 +1,32 @@
 const ASSET_ROOT = "https://raw.githubusercontent.com/michaelkurath/TRMNL-BUILT/main/";
 
+function getSelectedPool(items, settings) {
+  if (settings?.exhibit_mode !== "selected") return [];
+
+  const frame = settings.display_edition === "frame";
+  const value = frame ? settings.frame_exhibit_ids : settings.exhibit_ids;
+  const ids = Array.isArray(value) ? value : String(value ?? "").split(",");
+  const selectedIds = new Set(ids.map((id) => String(id).trim()));
+  return items.filter((item) => selectedIds.has(item.id) && (
+    !frame ||
+    (item.artwork?.landscape && item.artwork?.portrait)
+  ));
+}
+
 function run(input) {
   const items = input?.items;
   if (!Array.isArray(items) || items.length === 0) return { selected_entry: null };
 
+  const selectedPool = getSelectedPool(items, input.trmnl?.plugin_settings?.custom_fields_values);
+  const pool = selectedPool.length ? selectedPool : items;
   const lastId = input.trmnl?.state?.last_exhibit_id;
   const previousName = input.trmnl?.previous_merge_variables?.selected_entry?.name;
   // Existing installations can start from their last dated exhibit before a cursor is saved.
   const lastIndex = lastId
-    ? items.findIndex((item) => item.id === lastId)
-    : items.findIndex((item) => item.name === previousName);
+    ? pool.findIndex((item) => item.id === lastId)
+    : pool.findIndex((item) => item.name === previousName);
   const { id, name, location, year, caption, detail, image_alt, artwork } =
-    items[(lastIndex + 1) % items.length];
+    pool[(lastIndex + 1) % pool.length];
 
   return {
     selected_entry: {

@@ -53,3 +53,27 @@ test("the transform sends the four published images and trims source metadata", 
   assert.equal(entry.detail, items[0].detail);
   assert.equal(entry.sources, undefined);
 });
+
+test("My Selection pins one exhibit or advances only through the chosen exhibits", () => {
+  const [first, , third] = items;
+  const custom_fields_values = { exhibit_mode: "selected", exhibit_ids: [first.id, third.id, "removed"] };
+  const trmnl = { plugin_settings: { custom_fields_values } };
+  for (const exhibit of [first, third, first]) {
+    const result = run({ items, trmnl });
+    assert.equal(result.selected_entry.name, exhibit.name);
+    trmnl.state = result.trmnl_state;
+  }
+
+  const classicOnly = { ...first, id: "classic-only", artwork: { ...first.artwork, portrait: null } };
+  Object.assign(custom_fields_values, { display_edition: "frame", frame_exhibit_ids: classicOnly.id + "," + third.id });
+  for (let i = 0; i < 2; i++) {
+    const result = run({ items: [classicOnly, ...items], trmnl });
+    assert.equal(result.selected_entry.name, third.name);
+    trmnl.state = result.trmnl_state;
+  }
+  custom_fields_values.frame_exhibit_ids = [];
+  assert.equal(run({ items, trmnl }).selected_entry.name, first.name);
+
+  Object.assign(custom_fields_values, { exhibit_mode: "all", exhibit_ids: [third.id] });
+  assert.equal(run({ items, trmnl }).selected_entry.name, first.name);
+});

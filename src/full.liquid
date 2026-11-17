@@ -5,11 +5,11 @@
   {% if display_edition != "frame" %}
     {{ classic_styles }}
     <div class="layout built-classic built-classic--full{{ classic_visibility }}">
-      <img class="image image-dither built-classic__art built-classic__landscape-art" src="{{ selected.image_url_wide | escape }}" alt="{{ selected.image_alt | escape }}">
-      <img class="image image-dither built-classic__art built-classic__portrait-art" src="{{ selected.image_url_standard | escape }}" alt="{{ selected.image_alt | escape }}">
+      <img class="image image--contain image-dither w--full h--full built-classic__art built-classic__landscape-art portrait:hidden" src="{{ selected.image_url_wide | escape }}" alt="{{ selected.image_alt | escape }}">
+      <img class="image image--contain image-dither w--full h--full built-classic__art built-classic__portrait-art landscape:hidden" src="{{ selected.image_url_standard | escape }}" alt="{{ selected.image_alt | escape }}">
       <div class="built-classic__label">
         {{ classic_label }}
-        <p class="built-classic__detail">{{ selected.detail | escape }}</p>
+        <p class="built-classic__detail hidden lg:block">{{ selected.detail | escape }}</p>
       </div>
     </div>
     {{ built_title_bar }}

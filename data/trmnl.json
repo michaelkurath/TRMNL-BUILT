@@ -53,6 +53,31 @@
           "url": "https://www.sydneyoperahouse.com/our-story/50-years-extraordinary-moments"
         }
       ]
+    },
+    {
+      "id": "hoover-dam",
+      "name": "Hoover Dam",
+      "location": "Arizona–Nevada, United States",
+      "year": 1935,
+      "caption": "Water circulating through pipes cooled the dam’s concrete as it cured.",
+      "detail": "Crews poured the concrete in blocks and ran river water, then chilled water, through embedded steel coils. The dam was dedicated in 1935.",
+      "image_alt": "Artistic reconstruction of the stepped concrete pours and overhead cableway at Hoover Dam under construction in Black Canyon.",
+      "artwork": {
+        "landscape": "assets/exhibits/hoover-dam-frame-landscape.jpg",
+        "portrait": "assets/exhibits/hoover-dam-frame-portrait.jpg",
+        "wide": "assets/exhibits/hoover-dam-wide.jpg",
+        "standard": "assets/exhibits/hoover-dam-standard.jpg"
+      },
+      "sources": [
+        {
+          "name": "US Bureau of Reclamation · Concrete",
+          "url": "https://www.usbr.gov/lc/hooverdam/history/essays/concrete.html"
+        },
+        {
+          "name": "US Bureau of Reclamation · Construction chronology",
+          "url": "https://www.usbr.gov/lc/hooverdam/history/articles/chrono.html"
+        }
+      ]
     }
   ]
 }

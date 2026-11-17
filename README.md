@@ -13,6 +13,7 @@ BUILT is a daily illustrated exhibit about a completed landmark and the design o
 | --- | --- |
 | Millau Viaduct | Launching the steel deck from both sides of the Tarn valley |
 | Sydney Opera House | Using a common spherical geometry to build the roof shells |
+| Hoover Dam | Cooling concrete blocks through embedded steel pipes |
 
 ## Install BUILT
 

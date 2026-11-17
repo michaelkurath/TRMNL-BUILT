@@ -1,20 +1,6 @@
 {
   "candidates": [
     {
-      "id": "hoover-dam",
-      "name": "Hoover Dam",
-      "location": "Arizona–Nevada, United States",
-      "year": 1935,
-      "story": "Crews cast the dam in blocks and circulated water through embedded steel pipes to remove heat as the concrete cured. The dam was dedicated in 1935 and its first generator began operating in 1936.",
-      "art_direction": "Look into Black Canyon during a pour. Make the stepped concrete blocks and overhead cableways the focal points.",
-      "rating": { "recognition": 5, "visual_strength": 5, "story_strength": 5, "evidence_clarity": 5, "catalogue_fit": 5, "total": 25 },
-      "review": { "fact_check": true, "text_review": false, "image_review": false, "final_approval": false },
-      "sources": [
-        { "name": "US Bureau of Reclamation · Concrete", "url": "https://www.usbr.gov/lc/hooverdam/history/essays/concrete.html" },
-        { "name": "US Bureau of Reclamation · Construction chronology", "url": "https://www.usbr.gov/lc/hooverdam/history/articles/chrono.html" }
-      ]
-    },
-    {
       "id": "gotthard-base-tunnel",
       "name": "Gotthard Base Tunnel",
       "location": "Swiss Alps, Switzerland",

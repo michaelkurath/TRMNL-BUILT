@@ -22,3 +22,7 @@ The [catalogue](data/trmnl.json) records the display text, original artistic rec
 Each entry uses a 2560 × 1440 landscape and a 1440 × 2560 portrait colour JPEG, with space in the upper-right for the caption. The classic layouts use 2:1 and 4:3 grayscale exports. Artwork is illustrative and may simplify construction details.
 
 The Frame layout adapts the [NEVER BUILT Frame markup](https://github.com/michaelkurath/Never-Built/blob/95dc5bb/src/shared.liquid) by Michael Kurath under its [CC BY 4.0 licence](https://github.com/michaelkurath/Never-Built/blob/95dc5bb/LICENSE.md). BUILT uses its own artwork, captions, and classic layouts.
+
+## Contribute an exhibit
+
+The [candidate queue](data/candidates.json) records rated ideas and their sources. Follow the [editorial process](docs/EDITORIAL_PROCESS.md) to prepare a live exhibit, export artwork, and inspect device previews. [GitHub Actions](https://github.com/michaelkurath/TRMNL-BUILT/actions) runs the catalogue, rotation, and render checks on pull requests and updates to `main`.

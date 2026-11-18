@@ -119,6 +119,35 @@
           "url": "https://www.admin.ch/de/nsb?id=64811"
         }
       ]
+    },
+    {
+      "id": "gateway-arch",
+      "name": "Gateway Arch",
+      "location": "St. Louis, Missouri, United States",
+      "year": 1965,
+      "caption": "Climbing derricks lifted steel sections while a temporary truss braced the arch legs.",
+      "detail": "The last section joined the legs on 28 October 1965. The north tram first carried the public on 24 July 1967.",
+      "image_alt": "Artistic reconstruction of the unfinished Gateway Arch, with a steel truss between its legs and a climbing derrick mounted on each leg.",
+      "artwork": {
+        "landscape": "assets/exhibits/gateway-arch-frame-landscape.jpg",
+        "portrait": "assets/exhibits/gateway-arch-frame-portrait.jpg",
+        "wide": "assets/exhibits/gateway-arch-wide.jpg",
+        "standard": "assets/exhibits/gateway-arch-standard.jpg"
+      },
+      "sources": [
+        {
+          "name": "US National Park Service · Arch architecture and erection sequence",
+          "url": "https://www.nps.gov/jeff/planyourvisit/architecture.htm"
+        },
+        {
+          "name": "US National Park Service · Gateway Arch completion",
+          "url": "https://www.nps.gov/jeff/learn/historyculture/the-gateway-arch-celebrates-50th-year-of-completion.htm"
+        },
+        {
+          "name": "Gateway Arch · Project and tram timeline",
+          "url": "https://www.gatewayarch.com/about/arch-history/"
+        }
+      ]
     }
   ]
 }

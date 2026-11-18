@@ -29,18 +29,18 @@
       ]
     },
     {
-      "id": "gateway-arch",
-      "name": "Gateway Arch",
-      "location": "St. Louis, Missouri, United States",
-      "year": 1965,
-      "story": "Self-climbing derricks raised the stainless-steel sections up each leg. A temporary steel truss braced the legs as they curved inward. The final section went in on 28 October 1965 and the north tram opened to the public on 24 July 1967.",
-      "art_direction": "Show the two tapering stainless-steel legs from the riverfront before the crown is closed. Keep the horizontal lattice brace and the track-mounted creeper derricks distinct, using National Park Service construction photographs for their geometry and positions.",
-      "rating": { "recognition": 5, "visual_strength": 5, "story_strength": 5, "evidence_clarity": 5, "catalogue_fit": 4, "total": 24 },
+      "id": "abu-simbel-temples-relocation",
+      "name": "Abu Simbel Temples Relocation",
+      "location": "Abu Simbel, Egypt",
+      "year": 1968,
+      "story": "Crews cut the two rock temples into more than a thousand blocks and reassembled them inside an artificial hill on higher ground, above the rising reservoir. The relocated temples were inaugurated on 22 September 1968.",
+      "art_direction": "Use the contractor archive to show the Great Temple's partly rebuilt sandstone facade with lifting gear and visible block joints. Set the new site high above the reservoir, with the protective concrete dome still exposed behind the facade where the construction stage supports it.",
+      "rating": { "recognition": 4, "visual_strength": 5, "story_strength": 5, "evidence_clarity": 5, "catalogue_fit": 5, "total": 24 },
       "review": { "fact_check": true, "text_review": false, "image_review": false, "final_approval": false },
       "sources": [
-        { "name": "US National Park Service · Arch architecture and erection sequence", "url": "https://www.nps.gov/jeff/planyourvisit/architecture.htm" },
-        { "name": "US National Park Service · Gateway Arch completion", "url": "https://www.nps.gov/jeff/learn/historyculture/the-gateway-arch-celebrates-50th-year-of-completion.htm" },
-        { "name": "Gateway Arch · Project and tram timeline", "url": "https://www.gatewayarch.com/about/arch-history/" }
+        { "name": "UNESCO World Heritage Centre · Working Together: Abu Simbel", "url": "https://whc.unesco.org/en/activities/1296/" },
+        { "name": "Webuild · Abu Simbel Temples Rescue", "url": "https://www.webuildgroup.com/en/projects/civil-industrial-buildings/salvataggio-dei-templi-di-abu-simbel/" },
+        { "name": "CNRS–INHA InVisu · Contractor archive of the Great Temple reconstruction", "url": "https://corpus-visuels-invisu.inist.fr/s/building-beyond-mediterranean/item/14310" }
       ]
     }
   ]

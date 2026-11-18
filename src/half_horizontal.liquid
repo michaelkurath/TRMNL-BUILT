@@ -1,7 +1,9 @@
 {% if selected %}
+  {{ frame_panel_styles }}
   {{ classic_styles }}
   <div class="layout built-classic built-classic--horizontal">
-    <img class="image image--contain image-dither w--full h--full built-classic__art" src="{{ selected.image_url_standard | escape }}" alt="{{ selected.image_alt | escape }}">
+    <img class="built-panel-classic image image--contain image-dither w--full h--full built-classic__art" src="{{ selected.image_url_standard | escape }}" alt="{{ selected.image_alt | escape }}">
+    {{ frame_panel_art }}
     <div class="built-classic__label">{{ compact_label }}</div>
   </div>
 {% else %}

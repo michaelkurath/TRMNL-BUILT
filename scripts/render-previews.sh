@@ -28,7 +28,6 @@ case "$device" in
     read -r width height depth <<< "1404 1872 4"
     classes="screen--4bit screen--v2 screen--lg screen--portrait screen--density-2x" ;;
   frame|frame-portrait)
-    views=(full)
     read -r width height depth <<< "2560 1440 1"
     palette_args=(--data "palette=color-6a")
     classes="screen--color-6a screen--frame screen--xl screen--density-1x"

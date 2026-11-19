@@ -5,7 +5,11 @@
     <img class="built-panel-classic image image--contain image-dither w--full h--full built-classic__art portrait:hidden" src="{{ selected.image_url_wide | escape }}" alt="{{ selected.image_alt | escape }}">
     <img class="built-panel-classic image image--contain image-dither w--full h--full built-classic__art landscape:hidden" src="{{ selected.image_url_standard | escape }}" alt="{{ selected.image_alt | escape }}">
     {{ frame_panel_art }}
-    <div class="built-classic__label">{{ compact_label }}</div>
+    <div class="built-classic__label">
+      <div class="label lg:label--large">{{ selected.location | escape }} · {{ selected.year }}</div>
+      <h1 class="title title--small lg:title--xxlarge">{{ selected.name | escape }}</h1>
+      <p class="description description--large lg:description--xxlarge">{{ selected.caption | escape }}</p>
+    </div>
   </div>
 {% else %}
   {{ empty_exhibit }}

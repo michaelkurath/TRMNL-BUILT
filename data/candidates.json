@@ -1,20 +1,6 @@
 {
   "candidates": [
     {
-      "id": "guggenheim-museum-bilbao",
-      "name": "Guggenheim Museum Bilbao",
-      "location": "Bilbao, Spain",
-      "year": 1997,
-      "story": "The design team used CATIA, software developed for aerospace, to translate the museum's curved forms into geometry that could be built.",
-      "art_direction": "Show the riverfront construction site with titanium cladding on part of the structure and exposed framing beside it.",
-      "rating": { "recognition": 4, "visual_strength": 5, "story_strength": 4, "evidence_clarity": 5, "catalogue_fit": 5, "total": 23 },
-      "review": { "fact_check": true, "text_review": false, "image_review": false, "final_approval": false },
-      "sources": [
-        { "name": "Guggenheim Museum Bilbao · The construction", "url": "https://www.guggenheim-bilbao.eus/en/the-building/the-construction" },
-        { "name": "Guggenheim Museum Bilbao · Frank Gehry", "url": "https://www.guggenheim-bilbao.eus/en/did-you-know/frank-gehry" }
-      ]
-    },
-    {
       "id": "thames-barrier",
       "name": "Thames Barrier",
       "location": "London, United Kingdom",
@@ -41,6 +27,42 @@
         { "name": "UNESCO World Heritage Centre · Working Together: Abu Simbel", "url": "https://whc.unesco.org/en/activities/1296/" },
         { "name": "Webuild · Abu Simbel Temples Rescue", "url": "https://www.webuildgroup.com/en/projects/civil-industrial-buildings/salvataggio-dei-templi-di-abu-simbel/" },
         { "name": "CNRS–INHA InVisu · Contractor archive of the Great Temple reconstruction", "url": "https://corpus-visuels-invisu.inist.fr/s/building-beyond-mediterranean/item/14310" }
+      ]
+    },
+    {
+      "id": "falkirk-wheel",
+      "name": "Falkirk Wheel",
+      "location": "Falkirk, Scotland, United Kingdom",
+      "year": 2002,
+      "story": "The rotating boat lift used segmented arms with high-strength friction-grip bolted site joints. The joint design accommodated transport and the fatigue from repeated rotation. The completed lift opened in 2002.",
+      "art_direction": "Show the wheel under assembly beside the aqueduct, with a crane lifting an arm segment into position and a visible bolted flange joint. Use contractor and engineering records to establish the erection sequence and the opposed arms and gondola-ring geometry.",
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "evidence_clarity": 5,
+        "catalogue_fit": 5,
+        "total": 24
+      },
+      "review": {
+        "fact_check": true,
+        "text_review": false,
+        "image_review": false,
+        "final_approval": false
+      },
+      "sources": [
+        {
+          "name": "BCSA/SCI New Steel Construction · SSDA 2002 Falkirk Wheel engineering account",
+          "url": "https://www.newsteelconstruction.com/wp/ssda-2002-the-falkirk-wheel/"
+        },
+        {
+          "name": "Institution of Civil Engineers · Falkirk Wheel construction",
+          "url": "https://www.ice.org.uk/what-is-civil-engineering/infrastructure-projects/falkirk-wheel"
+        },
+        {
+          "name": "Scottish Canals · Falkirk Wheel",
+          "url": "https://www.scottishcanals.co.uk/visit/canals/visit-the-forth-clyde-canal/attractions/the-falkirk-wheel"
+        }
       ]
     }
   ]

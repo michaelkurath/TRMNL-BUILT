@@ -20,6 +20,7 @@ Set **Exhibit rotation** to **My Selection** and open **Choose exhibits**. Copy 
 | Hoover Dam | Cooling concrete blocks through embedded steel pipes |
 | Gotthard Base Tunnel | Bracing a tunnel boring machine against the rock to advance its cutterhead |
 | Gateway Arch | Lifting steel sections with climbing derricks while a temporary truss braced the two legs |
+| Guggenheim Museum Bilbao | Translating complex curves into buildable geometry with CATIA |
 
 ## Install BUILT
 

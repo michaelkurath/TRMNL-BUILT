@@ -148,6 +148,39 @@
           "url": "https://www.gatewayarch.com/about/arch-history/"
         }
       ]
+    },
+    {
+      "id": "guggenheim-museum-bilbao",
+      "name": "Guggenheim Museum Bilbao",
+      "location": "Bilbao, Spain",
+      "year": 1997,
+      "caption": "CATIA turned Gehry’s complex curves into geometry that builders could use.",
+      "detail": "Construction ran from 1993 to 1997. The museum was inaugurated on 18 October 1997 and opened to the public the next day.",
+      "image_alt": "Artistic reconstruction of Guggenheim Museum Bilbao under construction, with titanium cladding beside exposed curved steel framing on the riverfront.",
+      "artwork": {
+        "landscape": "assets/exhibits/guggenheim-museum-bilbao-frame-landscape.jpg",
+        "portrait": "assets/exhibits/guggenheim-museum-bilbao-frame-portrait.jpg",
+        "wide": "assets/exhibits/guggenheim-museum-bilbao-wide.jpg",
+        "standard": "assets/exhibits/guggenheim-museum-bilbao-standard.jpg"
+      },
+      "sources": [
+        {
+          "name": "Guggenheim Museum Bilbao · The construction",
+          "url": "https://www.guggenheim-bilbao.eus/en/the-building/the-construction"
+        },
+        {
+          "name": "Guggenheim Museum Bilbao · Frank Gehry",
+          "url": "https://www.guggenheim-bilbao.eus/en/did-you-know/frank-gehry"
+        },
+        {
+          "name": "Guggenheim Museum Bilbao · Opening exhibition and public opening",
+          "url": "https://www.guggenheim-bilbao.eus/en/exhibitions/the-guggenheim-museums-and-the-art-of-this-century"
+        },
+        {
+          "name": "El País · Contemporary report of 18 October inauguration",
+          "url": "https://elpais.com/diario/1997/10/19/portada/877212003_850215.html"
+        }
+      ]
     }
   ]
 }

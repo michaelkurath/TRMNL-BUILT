@@ -181,6 +181,43 @@
           "url": "https://elpais.com/diario/1997/10/19/portada/877212003_850215.html"
         }
       ]
+    },
+    {
+      "id": "abu-simbel-temples-relocation",
+      "name": "Abu Simbel Temples Relocation",
+      "location": "Abu Simbel, Egypt",
+      "year": 1968,
+      "caption": "Crews cut the temples into blocks and rebuilt them above the rising reservoir.",
+      "detail": "Stone blocks were catalogued and reassembled inside a new artificial hill. The relocated temples were inaugurated on 22 September 1968.",
+      "image_alt": "Artistic reconstruction of a crane lifting a sawn Ramses II head block beside scaffolded statue sections during the Abu Simbel relocation.",
+      "artwork": {
+        "landscape": "assets/exhibits/abu-simbel-temples-relocation-frame-landscape.jpg",
+        "portrait": "assets/exhibits/abu-simbel-temples-relocation-frame-portrait.jpg",
+        "wide": "assets/exhibits/abu-simbel-temples-relocation-wide.jpg",
+        "standard": "assets/exhibits/abu-simbel-temples-relocation-standard.jpg"
+      },
+      "sources": [
+        {
+          "name": "UNESCO World Heritage Centre · Working Together: Abu Simbel",
+          "url": "https://whc.unesco.org/en/activities/1296/"
+        },
+        {
+          "name": "Webuild · Abu Simbel Temples Rescue",
+          "url": "https://www.webuildgroup.com/en/projects/civil-industrial-buildings/salvataggio-dei-templi-di-abu-simbel/"
+        },
+        {
+          "name": "CNRS–INHA InVisu · Contractor archive of the Great Temple reconstruction",
+          "url": "https://corpus-visuels-invisu.inist.fr/s/building-beyond-mediterranean/item/14310"
+        },
+        {
+          "name": "Webuild Evolutio Museum · Cutting, lifting and reassembly technique",
+          "url": "https://www.evolutio.museum/en/safeguarding-heritage/the-work-and-the-technique-the-salvage-of-the-temples-of-abu-simbel-egypt.html"
+        },
+        {
+          "name": "Webuild We Build Value · Archival relocation photograph",
+          "url": "https://www.webuildvalue.com/en/photonews/abu-simbel-relocation-of-the-temples.html"
+        }
+      ]
     }
   ]
 }

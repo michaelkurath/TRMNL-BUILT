@@ -21,6 +21,7 @@ Set **Exhibit rotation** to **My Selection** and open **Choose exhibits**. Copy 
 | Gotthard Base Tunnel | Bracing a tunnel boring machine against the rock to advance its cutterhead |
 | Gateway Arch | Lifting steel sections with climbing derricks while a temporary truss braced the two legs |
 | Guggenheim Museum Bilbao | Translating complex curves into buildable geometry with CATIA |
+| Abu Simbel Temples Relocation | Cutting the temples into blocks and reassembling them above the reservoir |
 
 ## Install BUILT
 

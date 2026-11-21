@@ -218,6 +218,39 @@
           "url": "https://www.webuildvalue.com/en/photonews/abu-simbel-relocation-of-the-temples.html"
         }
       ]
+    },
+    {
+      "id": "golden-gate-bridge",
+      "name": "Golden Gate Bridge",
+      "location": "San Francisco–Marin County, California, United States",
+      "year": 1937,
+      "caption": "Workers spun the main cables in place, carrying individual wires over the towers.",
+      "detail": "Parallel wire strands were compacted into each main cable. Pedestrians crossed on 27 May 1937, followed by vehicle traffic on 28 May.",
+      "image_alt": "Artistic reconstruction of Golden Gate Bridge cable spinning, with workers on a temporary catwalk beside a wheeled carrier and parallel wire strands.",
+      "artwork": {
+        "landscape": "assets/exhibits/golden-gate-bridge-frame-landscape.jpg",
+        "portrait": "assets/exhibits/golden-gate-bridge-frame-portrait.jpg",
+        "wide": "assets/exhibits/golden-gate-bridge-wide.jpg",
+        "standard": "assets/exhibits/golden-gate-bridge-standard.jpg"
+      },
+      "sources": [
+        {
+          "name": "Golden Gate Bridge District · Spinning the main cables",
+          "url": "https://www.goldengate.org/exhibits/spinning-the-main-cables/"
+        },
+        {
+          "name": "Golden Gate Bridge District · Key dates and opening milestones",
+          "url": "https://www.goldengate.org/bridge/history-research/moments-events/key-dates/"
+        },
+        {
+          "name": "Golden Gate Bridge District · Design and construction statistics",
+          "url": "https://www.goldengate.org/bridge/history-research/statistics-data/design-construction-stats/"
+        },
+        {
+          "name": "The Engineer · Contemporary cable-spinning equipment report, 7 August 1936",
+          "url": "https://theengineer.markallengroup.com/production/2017/11/GG-Bridge-August-1936.pdf"
+        }
+      ]
     }
   ]
 }

@@ -51,19 +51,19 @@
       ]
     },
     {
-      "id": "golden-gate-bridge",
-      "name": "Golden Gate Bridge",
-      "location": "San Francisco–Marin County, California, United States",
-      "year": 1937,
-      "story": "Workers spun each main cable in place by carrying individual steel wires back and forth over the towers, then compacting the wire strands into a cable. Pedestrians first crossed on 27 May 1937 and vehicle traffic began on 28 May.",
-      "art_direction": "Show workers on the narrow temporary catwalk beside a partially built main cable and the spinning wheel carrying individual wire loops over the strait. Use the bridge district's construction photographs to match the equipment and the stage before deck erection. Emphasize aerial cable fabrication as the construction story.",
+      "id": "eiffel-tower",
+      "name": "Eiffel Tower",
+      "location": "Paris, France",
+      "year": 1889,
+      "story": "During erection, temporary hydraulic cylinders at the bases of two columns and gradually emptied sandboxes allowed precise alignment of the pillars and first-floor beams. The cylinders were removed and replaced by permanent wedges. The tower was completed and inaugurated on 31 March 1889 and opened to the public on 15 May.",
+      "art_direction": "Depict the tower while the four inclined iron legs and first-floor beams are being joined above tall timber scaffolding. Include an inset-like close foreground view of a temporary base cylinder and hand pump only if the perspective remains plausible. Use the operator's erection drawings to establish the support positions and red-brown ironwork.",
       "rating": {
         "recognition": 5,
-        "visual_strength": 5,
+        "visual_strength": 4,
         "story_strength": 5,
         "evidence_clarity": 5,
         "catalogue_fit": 4,
-        "total": 24
+        "total": 23
       },
       "review": {
         "fact_check": true,
@@ -73,16 +73,16 @@
       },
       "sources": [
         {
-          "name": "Golden Gate Bridge District · Spinning the main cables",
-          "url": "https://www.goldengate.org/exhibits/spinning-the-main-cables/"
+          "name": "Eiffel Tower operator · Temporary hydraulic cylinders and permanent wedges",
+          "url": "https://www.toureiffel.paris/en/news/130-years/eiffel-tower-mounted-cylinders"
         },
         {
-          "name": "Golden Gate Bridge District · Key dates and opening milestones",
-          "url": "https://www.goldengate.org/bridge/history-research/moments-events/key-dates/"
+          "name": "Eiffel Tower operator · Completion, inauguration and public opening",
+          "url": "https://www.toureiffel.paris/en/news/history-and-culture/133-years-and-1083-feet"
         },
         {
-          "name": "Golden Gate Bridge District · Design and construction statistics",
-          "url": "https://www.goldengate.org/bridge/history-research/statistics-data/design-construction-stats/"
+          "name": "Eiffel Tower operator · History and construction sequence",
+          "url": "https://www.toureiffel.paris/en/the-monument/history"
         }
       ]
     }

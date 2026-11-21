@@ -22,6 +22,7 @@ Set **Exhibit rotation** to **My Selection** and open **Choose exhibits**. Copy 
 | Gateway Arch | Lifting steel sections with climbing derricks while a temporary truss braced the two legs |
 | Guggenheim Museum Bilbao | Translating complex curves into buildable geometry with CATIA |
 | Abu Simbel Temples Relocation | Cutting the temples into blocks and reassembling them above the reservoir |
+| Golden Gate Bridge | Spinning individual steel wires over the towers to build the main cables |
 
 ## Install BUILT
 

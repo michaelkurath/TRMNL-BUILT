@@ -7,11 +7,29 @@
       "year": 1984,
       "story": "Engineers used gates that rotate up from the riverbed to block storm surges while leaving navigation spans clear when open. The barrier became operational in 1982 and officially opened in 1984.",
       "art_direction": "Show a raised steel gate between two of the silver piers from a low river viewpoint so the gate profile is visible.",
-      "rating": { "recognition": 4, "visual_strength": 4, "story_strength": 4, "evidence_clarity": 5, "catalogue_fit": 5, "total": 22 },
-      "review": { "fact_check": true, "text_review": false, "image_review": false, "final_approval": false },
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 4,
+        "story_strength": 4,
+        "evidence_clarity": 5,
+        "catalogue_fit": 5,
+        "total": 22
+      },
+      "review": {
+        "fact_check": true,
+        "text_review": false,
+        "image_review": false,
+        "final_approval": false
+      },
       "sources": [
-        { "name": "The London Archives · Thames Barrier", "url": "https://www.thelondonarchives.org/your-research/thames-barrier" },
-        { "name": "Environment Agency · Official opening anniversary", "url": "https://www.gov.uk/government/news/the-thames-barrier-protecting-london-and-the-thames-estuary-for-40-years" }
+        {
+          "name": "The London Archives · Thames Barrier",
+          "url": "https://www.thelondonarchives.org/your-research/thames-barrier"
+        },
+        {
+          "name": "Environment Agency · Official opening anniversary",
+          "url": "https://www.gov.uk/government/news/the-thames-barrier-protecting-london-and-the-thames-estuary-for-40-years"
+        }
       ]
     },
     {
@@ -51,19 +69,19 @@
       ]
     },
     {
-      "id": "eiffel-tower",
-      "name": "Eiffel Tower",
-      "location": "Paris, France",
-      "year": 1889,
-      "story": "During erection, temporary hydraulic cylinders at the bases of two columns and gradually emptied sandboxes allowed precise alignment of the pillars and first-floor beams. The cylinders were removed and replaced by permanent wedges. The tower was completed and inaugurated on 31 March 1889 and opened to the public on 15 May.",
-      "art_direction": "Depict the tower while the four inclined iron legs and first-floor beams are being joined above tall timber scaffolding. Include an inset-like close foreground view of a temporary base cylinder and hand pump only if the perspective remains plausible. Use the operator's erection drawings to establish the support positions and red-brown ironwork.",
+      "id": "brunelleschi-dome",
+      "name": "Brunelleschi’s Dome",
+      "location": "Florence, Italy",
+      "year": 1436,
+      "story": "Brunelleschi raised Florence Cathedral’s double-shell octagonal dome without full wooden centering. Herringbone brickwork helped stabilize the increasingly inclined courses while successive closed rings held the structure in equilibrium. The dome body was completed on 30 August 1436; the lantern was added later, after Brunelleschi died in 1446.",
+      "art_direction": "Show the dome body under construction in the early 1430s, without the later lantern. Use an elevated view of the octagonal drum and rising double shells, eight principal ribs and an open crown. A near working edge should clearly expose vertical bricks interrupting inclined horizontal courses in the herringbone pattern. Include modest work platforms at height, not huge wooden centering filling the cathedral. Research period hoists separately before drawing machinery; avoid modern cranes. Compose landscape and portrait independently with quiet upper-right space; keep brick orientation legible in grayscale. The construction angle is masonry stability, not the finished Florence skyline.",
       "rating": {
-        "recognition": 5,
-        "visual_strength": 4,
+        "recognition": 4,
+        "visual_strength": 5,
         "story_strength": 5,
         "evidence_clarity": 5,
-        "catalogue_fit": 4,
-        "total": 23
+        "catalogue_fit": 5,
+        "total": 24
       },
       "review": {
         "fact_check": true,
@@ -73,16 +91,16 @@
       },
       "sources": [
         {
-          "name": "Eiffel Tower operator · Temporary hydraulic cylinders and permanent wedges",
-          "url": "https://www.toureiffel.paris/en/news/130-years/eiffel-tower-mounted-cylinders"
+          "name": "Opera di Santa Maria del Fiore · Dome structure, herringbone masonry and later lantern",
+          "url": "https://duomo.firenze.it/en/discover/dome"
         },
         {
-          "name": "Eiffel Tower operator · Completion, inauguration and public opening",
-          "url": "https://www.toureiffel.paris/en/news/history-and-culture/133-years-and-1083-feet"
+          "name": "Museo Galileo · Self-sustaining dome structure and brick courses",
+          "url": "https://brunelleschi.imss.fi.it/itineraries/multimedia/TheDomeStructure.html"
         },
         {
-          "name": "Eiffel Tower operator · History and construction sequence",
-          "url": "https://www.toureiffel.paris/en/the-monument/history"
+          "name": "Opera di Santa Maria del Fiore · Dome completion on 30 August 1436",
+          "url": "https://duomo.firenze.it/en/opera-magazine/post/4649/il-30-agosto-1436-si-concludevano-i-lavori-della-cupola-di-brunelleschi"
         }
       ]
     }

@@ -251,6 +251,35 @@
           "url": "https://theengineer.markallengroup.com/production/2017/11/GG-Bridge-August-1936.pdf"
         }
       ]
+    },
+    {
+      "id": "eiffel-tower",
+      "name": "Eiffel Tower",
+      "location": "Paris, France",
+      "year": 1889,
+      "caption": "Temporary hydraulic cylinders helped align the first-floor ironwork.",
+      "detail": "Hand pumps adjusted two columns before permanent wedges replaced the cylinders. Completed and inaugurated 31 March 1889; public opening 15 May.",
+      "image_alt": "Artistic reconstruction of Eiffel Tower first-floor assembly, with an enlarged temporary hydraulic cylinder and hand pump at a column base and timber falsework behind.",
+      "artwork": {
+        "landscape": "assets/exhibits/eiffel-tower-frame-landscape.jpg",
+        "portrait": "assets/exhibits/eiffel-tower-frame-portrait.jpg",
+        "wide": "assets/exhibits/eiffel-tower-wide.jpg",
+        "standard": "assets/exhibits/eiffel-tower-standard.jpg"
+      },
+      "sources": [
+        {
+          "name": "Eiffel Tower operator · Temporary hydraulic cylinders and permanent wedges",
+          "url": "https://www.toureiffel.paris/en/news/130-years/eiffel-tower-mounted-cylinders"
+        },
+        {
+          "name": "Eiffel Tower operator · Completion, inauguration and public opening",
+          "url": "https://www.toureiffel.paris/en/news/history-and-culture/133-years-and-1083-feet"
+        },
+        {
+          "name": "Eiffel Tower operator · History and construction sequence",
+          "url": "https://www.toureiffel.paris/en/the-monument/history"
+        }
+      ]
     }
   ]
 }

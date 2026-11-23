@@ -24,6 +24,7 @@ Set **Exhibit rotation** to **My Selection** and open **Choose exhibits**. Copy 
 | Abu Simbel Temples Relocation | Cutting the temples into blocks and reassembling them above the reservoir |
 | Golden Gate Bridge | Spinning individual steel wires over the towers to build the main cables |
 | Eiffel Tower | Aligning first-floor ironwork with temporary hydraulic cylinders and hand pumps |
+| Brunelleschi’s Dome | Stabilizing rising inclined masonry courses with herringbone brickwork |
 
 ## Install BUILT
 

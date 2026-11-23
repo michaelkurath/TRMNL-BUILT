@@ -280,6 +280,39 @@
           "url": "https://www.toureiffel.paris/en/the-monument/history"
         }
       ]
+    },
+    {
+      "id": "brunelleschi-dome",
+      "name": "Brunelleschi’s Dome",
+      "location": "Florence, Italy",
+      "year": 1436,
+      "caption": "Herringbone brickwork helped stabilize the dome as its inclined courses rose.",
+      "detail": "Brunelleschi built without full wooden centering. Successive masonry rings closed as work rose. The dome body was completed on 30 August 1436; the lantern came later.",
+      "image_alt": "Artistic cutaway reconstruction of Brunelleschi’s dome under construction, with masons laying upright herringbone bricks among sloping courses beside an exposed double-shell edge.",
+      "artwork": {
+        "landscape": "assets/exhibits/brunelleschi-dome-frame-landscape.jpg",
+        "portrait": "assets/exhibits/brunelleschi-dome-frame-portrait.jpg",
+        "wide": "assets/exhibits/brunelleschi-dome-wide.jpg",
+        "standard": "assets/exhibits/brunelleschi-dome-standard.jpg"
+      },
+      "sources": [
+        {
+          "name": "Opera di Santa Maria del Fiore · Dome structure, herringbone masonry and later lantern",
+          "url": "https://duomo.firenze.it/en/discover/dome"
+        },
+        {
+          "name": "Museo Galileo · Self-sustaining dome structure and brick courses",
+          "url": "https://brunelleschi.imss.fi.it/itineraries/multimedia/TheDomeStructure.html"
+        },
+        {
+          "name": "Opera di Santa Maria del Fiore · Dome completion on 30 August 1436",
+          "url": "https://duomo.firenze.it/en/opera-magazine/post/4649/il-30-agosto-1436-si-concludevano-i-lavori-della-cupola-di-brunelleschi"
+        },
+        {
+          "name": "Museo Galileo · Sloping beds, herringbone brick rows and successive rings",
+          "url": "https://brunelleschi.imss.fi.it/itineraries/multimedia/DomeStructure.html"
+        }
+      ]
     }
   ]
 }

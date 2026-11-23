@@ -69,19 +69,19 @@
       ]
     },
     {
-      "id": "brunelleschi-dome",
-      "name": "Brunelleschi’s Dome",
-      "location": "Florence, Italy",
-      "year": 1436,
-      "story": "Brunelleschi raised Florence Cathedral’s double-shell octagonal dome without full wooden centering. Herringbone brickwork helped stabilize the increasingly inclined courses while successive closed rings held the structure in equilibrium. The dome body was completed on 30 August 1436; the lantern was added later, after Brunelleschi died in 1446.",
-      "art_direction": "Show the dome body under construction in the early 1430s, without the later lantern. Use an elevated view of the octagonal drum and rising double shells, eight principal ribs and an open crown. A near working edge should clearly expose vertical bricks interrupting inclined horizontal courses in the herringbone pattern. Include modest work platforms at height, not huge wooden centering filling the cathedral. Research period hoists separately before drawing machinery; avoid modern cranes. Compose landscape and portrait independently with quiet upper-right space; keep brick orientation legible in grayscale. The construction angle is masonry stability, not the finished Florence skyline.",
+      "id": "forth-bridge",
+      "name": "Forth Bridge",
+      "location": "Firth of Forth, Scotland, United Kingdom",
+      "year": 1890,
+      "story": "Crews extended cantilever arms in balance on both sides of the towers, then built the connecting suspended spans out from each side until the halves met. Jack-raised work platforms followed the growing struts and ties. The bridge was completed in November 1889 and formally opened on 4 March 1890; rail traffic began in March 1890.",
+      "art_direction": "Depict balanced erection in the late 1880s: a great tubular steel tower with incomplete arms projecting on both sides, open gaps before the suspended spans join, granite piers and navigable water below. Make the two-sided balance the main readable silhouette. Use National Library of Scotland photographs and contemporary erection drawings to establish struts, ties and temporary jack-raised platforms before illustrating machinery. No modern cranes or suspension cables. Compose Frame landscape and portrait independently, reserving quiet upper-right sky. Grayscale crops must retain the tower and both growing arms. Unlike Millau deck launching and Golden Gate cable spinning, this story concerns self-supporting balanced cantilever erection.",
       "rating": {
         "recognition": 4,
         "visual_strength": 5,
         "story_strength": 5,
         "evidence_clarity": 5,
-        "catalogue_fit": 5,
-        "total": 24
+        "catalogue_fit": 4,
+        "total": 23
       },
       "review": {
         "fact_check": true,
@@ -91,16 +91,20 @@
       },
       "sources": [
         {
-          "name": "Opera di Santa Maria del Fiore · Dome structure, herringbone masonry and later lantern",
-          "url": "https://duomo.firenze.it/en/discover/dome"
+          "name": "Network Rail · Construction, November 1889 completion and 4 March 1890 opening",
+          "url": "https://www.networkrail.co.uk/who-we-are/our-history/iconic-infrastructure/the-history-of-the-forth-bridge-fife/"
         },
         {
-          "name": "Museo Galileo · Self-sustaining dome structure and brick courses",
-          "url": "https://brunelleschi.imss.fi.it/itineraries/multimedia/TheDomeStructure.html"
+          "name": "UK World Heritage nomination · Balanced erection and March 1890 rail traffic",
+          "url": "https://whc.unesco.org/uploads/nominations/1485.pdf"
         },
         {
-          "name": "Opera di Santa Maria del Fiore · Dome completion on 30 August 1436",
-          "url": "https://duomo.firenze.it/en/opera-magazine/post/4649/il-30-agosto-1436-si-concludevano-i-lavori-della-cupola-di-brunelleschi"
+          "name": "National Library of Scotland · Philip Phillips 1890 account of jack-raised erection platforms",
+          "url": "https://www.flickr.com/photos/nlscotland/5181439808/"
+        },
+        {
+          "name": "UNESCO World Heritage Committee · Completed cantilever structure",
+          "url": "https://whc.unesco.org/en/decisions/6383/"
         }
       ]
     }

@@ -313,6 +313,39 @@
           "url": "https://brunelleschi.imss.fi.it/itineraries/multimedia/DomeStructure.html"
         }
       ]
+    },
+    {
+      "id": "falkirk-wheel",
+      "name": "Falkirk Wheel",
+      "location": "Falkirk, Scotland, United Kingdom",
+      "year": 2002,
+      "caption": "Bolted site joints joined the segmented arms of the rotating boat lift.",
+      "detail": "Crews preassembled major sections at low level before crane lifts. Main erection finished in September 2001; the Wheel officially opened on 24 May 2002.",
+      "image_alt": "Artistic reconstruction of Falkirk Wheel arm preassembly, with workers tightening a bolted splice beside a large gondola-ring opening on ground supports.",
+      "artwork": {
+        "landscape": "assets/exhibits/falkirk-wheel-frame-landscape.jpg",
+        "portrait": "assets/exhibits/falkirk-wheel-frame-portrait.jpg",
+        "wide": "assets/exhibits/falkirk-wheel-wide.jpg",
+        "standard": "assets/exhibits/falkirk-wheel-standard.jpg"
+      },
+      "sources": [
+        {
+          "name": "BCSA/SCI New Steel Construction · SSDA 2002 Falkirk Wheel engineering account",
+          "url": "https://www.newsteelconstruction.com/wp/ssda-2002-the-falkirk-wheel/"
+        },
+        {
+          "name": "Institution of Civil Engineers · Falkirk Wheel construction",
+          "url": "https://www.ice.org.uk/what-is-civil-engineering/infrastructure-projects/falkirk-wheel"
+        },
+        {
+          "name": "Scottish Canals · Falkirk Wheel",
+          "url": "https://www.scottishcanals.co.uk/visit/canals/visit-the-forth-clyde-canal/attractions/the-falkirk-wheel"
+        },
+        {
+          "name": "National Transport Trust · Official opening on 24 May 2002",
+          "url": "https://www.nationaltransporttrust.org.uk/heritage-sites/heritage-detail/falkirk-wheel"
+        }
+      ]
     }
   ]
 }

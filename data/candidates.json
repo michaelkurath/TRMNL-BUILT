@@ -33,42 +33,6 @@
       ]
     },
     {
-      "id": "falkirk-wheel",
-      "name": "Falkirk Wheel",
-      "location": "Falkirk, Scotland, United Kingdom",
-      "year": 2002,
-      "story": "The rotating boat lift used segmented arms with high-strength friction-grip bolted site joints. The joint design accommodated transport and the fatigue from repeated rotation. The completed lift opened in 2002.",
-      "art_direction": "Show the wheel under assembly beside the aqueduct, with a crane lifting an arm segment into position and a visible bolted flange joint. Use contractor and engineering records to establish the erection sequence and the opposed arms and gondola-ring geometry.",
-      "rating": {
-        "recognition": 4,
-        "visual_strength": 5,
-        "story_strength": 5,
-        "evidence_clarity": 5,
-        "catalogue_fit": 5,
-        "total": 24
-      },
-      "review": {
-        "fact_check": true,
-        "text_review": false,
-        "image_review": false,
-        "final_approval": false
-      },
-      "sources": [
-        {
-          "name": "BCSA/SCI New Steel Construction · SSDA 2002 Falkirk Wheel engineering account",
-          "url": "https://www.newsteelconstruction.com/wp/ssda-2002-the-falkirk-wheel/"
-        },
-        {
-          "name": "Institution of Civil Engineers · Falkirk Wheel construction",
-          "url": "https://www.ice.org.uk/what-is-civil-engineering/infrastructure-projects/falkirk-wheel"
-        },
-        {
-          "name": "Scottish Canals · Falkirk Wheel",
-          "url": "https://www.scottishcanals.co.uk/visit/canals/visit-the-forth-clyde-canal/attractions/the-falkirk-wheel"
-        }
-      ]
-    },
-    {
       "id": "forth-bridge",
       "name": "Forth Bridge",
       "location": "Firth of Forth, Scotland, United Kingdom",
@@ -105,6 +69,42 @@
         {
           "name": "UNESCO World Heritage Committee · Completed cantilever structure",
           "url": "https://whc.unesco.org/en/decisions/6383/"
+        }
+      ]
+    },
+    {
+      "id": "zollverein-shaft-xii",
+      "name": "Zollverein Shaft XII",
+      "location": "Essen, Germany",
+      "year": 1932,
+      "story": "Zollverein Shaft XII separated its load-bearing steel skeletons from lighter, non-load-bearing steel-grid curtain walls. The independent facade grids enclosed the industrial spaces while leaving the main structure adaptable to changing machinery. Construction ran from 1928 to 1932; the central shaft complex entered operation on 1 February 1932. This subject is the completed Shaft XII buildings, not the later coking plant.",
+      "art_direction": "Show a Shaft XII industrial hall under construction around 1931: heavy internal steel columns and beams behind a lighter external steel facade grid, some grid bays still open and others filled with red brick and glazing. Make the separation of structure and enclosure clear in an interpretive open corner. Use Docomomo drawings and historical construction photographs before placing period lifting gear or workers. The double-bock headframe may appear as a contextual silhouette only after its erection date is verified. No modern escalator or later coking plant. Independently compose Frame orientations with quiet upper-right space; grayscale must distinguish the heavy frame from the thin facade grid. The story concerns industrial building construction, rather than mining decline or present-day reuse.",
+      "rating": {
+        "recognition": 3,
+        "visual_strength": 4,
+        "story_strength": 5,
+        "evidence_clarity": 5,
+        "catalogue_fit": 5,
+        "total": 22
+      },
+      "review": {
+        "fact_check": true,
+        "text_review": false,
+        "image_review": false,
+        "final_approval": false
+      },
+      "sources": [
+        {
+          "name": "Docomomo Germany · Shaft XII chronology and independent steel-grid curtain walls",
+          "url": "https://docomomo.de/images/pdf/2008_essen_zechezollverein_copy_1.pdf"
+        },
+        {
+          "name": "Stiftung Zollverein · 1928–1932 construction and first operation on 1 February 1932",
+          "url": "https://www.zollverein.de/ueber-zollverein/geschichte/"
+        },
+        {
+          "name": "UNESCO nomination · Shaft XII steel framework buildings and facades",
+          "url": "https://whc.unesco.org/uploads/nominations/975.pdf"
         }
       ]
     }

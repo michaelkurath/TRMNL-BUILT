@@ -27,6 +27,7 @@ Set **Exhibit rotation** to **My Selection** and open **Choose exhibits**. Copy 
 | Brunelleschi’s Dome | Stabilizing rising inclined masonry courses with herringbone brickwork |
 | Falkirk Wheel | Joining segmented rotating arms with bolted site connections |
 | Forth Bridge | Extending cantilever arms in balance on both sides of each tower |
+| Zollverein Shaft XII | Separating the heavy steel structure from the lighter façade grid |
 
 ## Install BUILT
 

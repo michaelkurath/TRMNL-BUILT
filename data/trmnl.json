@@ -383,6 +383,35 @@
           "url": "https://www.flickr.com/photos/nlscotland/5181442942/"
         }
       ]
+    },
+    {
+      "id": "zollverein-shaft-xii",
+      "name": "Zollverein Shaft XII",
+      "location": "Essen, Germany",
+      "year": 1932,
+      "caption": "A heavy steel skeleton carried the building; a lighter façade grid enclosed it.",
+      "detail": "Independent steel-grid curtain walls left the interior frame adaptable. Built from 1928 to 1932, Shaft XII entered operation on 1 February 1932.",
+      "image_alt": "Artistic cutaway reconstruction of a Zollverein Shaft XII hall under construction, exposing heavy internal steel columns behind a lighter façade grid with brick infill.",
+      "artwork": {
+        "landscape": "assets/exhibits/zollverein-shaft-xii-frame-landscape.jpg",
+        "portrait": "assets/exhibits/zollverein-shaft-xii-frame-portrait.jpg",
+        "wide": "assets/exhibits/zollverein-shaft-xii-wide.jpg",
+        "standard": "assets/exhibits/zollverein-shaft-xii-standard.jpg"
+      },
+      "sources": [
+        {
+          "name": "Docomomo Germany · Shaft XII chronology and independent steel-grid curtain walls",
+          "url": "https://docomomo.de/images/pdf/2008_essen_zechezollverein_copy_1.pdf"
+        },
+        {
+          "name": "Stiftung Zollverein · 1928–1932 construction and first operation on 1 February 1932",
+          "url": "https://www.zollverein.de/ueber-zollverein/geschichte/"
+        },
+        {
+          "name": "UNESCO nomination · Shaft XII steel framework buildings and facades",
+          "url": "https://whc.unesco.org/uploads/nominations/975.pdf"
+        }
+      ]
     }
   ]
 }

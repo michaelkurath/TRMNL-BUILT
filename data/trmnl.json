@@ -346,6 +346,43 @@
           "url": "https://www.nationaltransporttrust.org.uk/heritage-sites/heritage-detail/falkirk-wheel"
         }
       ]
+    },
+    {
+      "id": "forth-bridge",
+      "name": "Forth Bridge",
+      "location": "Firth of Forth, Scotland, United Kingdom",
+      "year": 1890,
+      "caption": "Crews extended the cantilever arms in balance on both sides of each tower.",
+      "detail": "The bridge was completed in November 1889. After testing, it formally opened on 4 March 1890; rail traffic began that March.",
+      "image_alt": "Artistic reconstruction of a Forth Bridge tower during erection, with short unfinished arms on both sides, temporary work platforms and period jib cranes.",
+      "artwork": {
+        "landscape": "assets/exhibits/forth-bridge-frame-landscape.jpg",
+        "portrait": "assets/exhibits/forth-bridge-frame-portrait.jpg",
+        "wide": "assets/exhibits/forth-bridge-wide.jpg",
+        "standard": "assets/exhibits/forth-bridge-standard.jpg"
+      },
+      "sources": [
+        {
+          "name": "Network Rail · Construction, November 1889 completion and 4 March 1890 opening",
+          "url": "https://www.networkrail.co.uk/who-we-are/our-history/iconic-infrastructure/the-history-of-the-forth-bridge-fife/"
+        },
+        {
+          "name": "UK World Heritage nomination · Balanced erection and March 1890 rail traffic",
+          "url": "https://whc.unesco.org/uploads/nominations/1485.pdf"
+        },
+        {
+          "name": "National Library of Scotland · Philip Phillips 1890 account of jack-raised erection platforms",
+          "url": "https://www.flickr.com/photos/nlscotland/5181439808/"
+        },
+        {
+          "name": "UNESCO World Heritage Committee · Completed cantilever structure",
+          "url": "https://whc.unesco.org/en/decisions/6383/"
+        },
+        {
+          "name": "National Library of Scotland · Erection cages and hydraulic cranes on growing booms",
+          "url": "https://www.flickr.com/photos/nlscotland/5181442942/"
+        }
+      ]
     }
   ]
 }

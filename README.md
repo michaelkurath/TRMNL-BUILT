@@ -26,6 +26,7 @@ Set **Exhibit rotation** to **My Selection** and open **Choose exhibits**. Copy 
 | Eiffel Tower | Aligning first-floor ironwork with temporary hydraulic cylinders and hand pumps |
 | Brunelleschi’s Dome | Stabilizing rising inclined masonry courses with herringbone brickwork |
 | Falkirk Wheel | Joining segmented rotating arms with bolted site connections |
+| Forth Bridge | Extending cantilever arms in balance on both sides of each tower |
 
 ## Install BUILT
 

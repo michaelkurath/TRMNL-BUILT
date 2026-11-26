@@ -33,46 +33,6 @@
       ]
     },
     {
-      "id": "forth-bridge",
-      "name": "Forth Bridge",
-      "location": "Firth of Forth, Scotland, United Kingdom",
-      "year": 1890,
-      "story": "Crews extended cantilever arms in balance on both sides of the towers, then built the connecting suspended spans out from each side until the halves met. Jack-raised work platforms followed the growing struts and ties. The bridge was completed in November 1889 and formally opened on 4 March 1890; rail traffic began in March 1890.",
-      "art_direction": "Depict balanced erection in the late 1880s: a great tubular steel tower with incomplete arms projecting on both sides, open gaps before the suspended spans join, granite piers and navigable water below. Make the two-sided balance the main readable silhouette. Use National Library of Scotland photographs and contemporary erection drawings to establish struts, ties and temporary jack-raised platforms before illustrating machinery. No modern cranes or suspension cables. Compose Frame landscape and portrait independently, reserving quiet upper-right sky. Grayscale crops must retain the tower and both growing arms. Unlike Millau deck launching and Golden Gate cable spinning, this story concerns self-supporting balanced cantilever erection.",
-      "rating": {
-        "recognition": 4,
-        "visual_strength": 5,
-        "story_strength": 5,
-        "evidence_clarity": 5,
-        "catalogue_fit": 4,
-        "total": 23
-      },
-      "review": {
-        "fact_check": true,
-        "text_review": false,
-        "image_review": false,
-        "final_approval": false
-      },
-      "sources": [
-        {
-          "name": "Network Rail · Construction, November 1889 completion and 4 March 1890 opening",
-          "url": "https://www.networkrail.co.uk/who-we-are/our-history/iconic-infrastructure/the-history-of-the-forth-bridge-fife/"
-        },
-        {
-          "name": "UK World Heritage nomination · Balanced erection and March 1890 rail traffic",
-          "url": "https://whc.unesco.org/uploads/nominations/1485.pdf"
-        },
-        {
-          "name": "National Library of Scotland · Philip Phillips 1890 account of jack-raised erection platforms",
-          "url": "https://www.flickr.com/photos/nlscotland/5181439808/"
-        },
-        {
-          "name": "UNESCO World Heritage Committee · Completed cantilever structure",
-          "url": "https://whc.unesco.org/en/decisions/6383/"
-        }
-      ]
-    },
-    {
       "id": "zollverein-shaft-xii",
       "name": "Zollverein Shaft XII",
       "location": "Essen, Germany",
@@ -105,6 +65,42 @@
         {
           "name": "UNESCO nomination · Shaft XII steel framework buildings and facades",
           "url": "https://whc.unesco.org/uploads/nominations/975.pdf"
+        }
+      ]
+    },
+    {
+      "id": "landwasser-viaduct",
+      "name": "Landwasser Viaduct",
+      "location": "Filisur, Graubünden, Switzerland",
+      "year": 1902,
+      "story": "The three tallest masonry piers rose without external scaffold towers. Iron frames were embedded in the piers and raised with the work; cross beams between them carried electric lifting cranes that delivered stone to the growing pier tops. The completed limestone viaduct was finished in October 1902. This year denotes bridge completion, not the later opening of railway service.",
+      "art_direction": "Depict the tall piers under construction in 1901–1902, with embedded iron frames projecting above masonry and cross beams carrying the electric lifting equipment. Use owner archive photographs and contemporary drawings to establish the exact geometry before artwork. Show the curved alignment toward the rock-face tunnel, five piers and eventual six arches only at a stage supported by records. The no-external-scaffolding claim applies to the tall piers: any arches under construction must have historically supported centering. Keep the cranes and a lifted stone load legible at wall distance and in grayscale, with quiet upper-right space in independently composed Frame orientations. Do not draw modern tower cranes or a completed train running through unfinished arches. Confirm the line-opening and first-service milestones separately before final live copy.",
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "evidence_clarity": 5,
+        "catalogue_fit": 4,
+        "total": 23
+      },
+      "review": {
+        "fact_check": true,
+        "text_review": false,
+        "image_review": false,
+        "final_approval": false
+      },
+      "sources": [
+        {
+          "name": "Rhätische Bahn · 1901–1902 construction and embedded lifting frames",
+          "url": "https://www.rhb.ch/de/aktuelles/blog/fakten-landwasserviadukt/"
+        },
+        {
+          "name": "Rhätische Bahn · Detailed pier construction and October 1902 completion",
+          "url": "https://www.rhb.ch/rm/aktuelles/blog/weltbekannt-der-landwasserviadukt/"
+        },
+        {
+          "name": "World Heritage Experience Switzerland · Iron frames, electric cranes and completed viaduct",
+          "url": "https://unsererbe.ch/poi/der-landwasserviadukt"
         }
       ]
     }

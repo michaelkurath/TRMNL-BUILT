@@ -412,6 +412,43 @@
           "url": "https://whc.unesco.org/uploads/nominations/975.pdf"
         }
       ]
+    },
+    {
+      "id": "crystal-palace-hyde-park",
+      "name": "Crystal Palace, Hyde Park",
+      "location": "London, United Kingdom",
+      "year": 1851,
+      "caption": "Glazing wagons ran in the roof gutters, carrying workers as they fitted the glass.",
+      "detail": "Prefabricated iron and timber parts formed repeated bays. Completed in January 1851, the Hyde Park palace hosted the exhibition from 1 May.",
+      "image_alt": "Artistic reconstruction of Crystal Palace roof glazing in 1850, with a wheeled timber platform running in parallel gutters as two glaziers fit glass into repeated roof bays.",
+      "artwork": {
+        "landscape": "assets/exhibits/crystal-palace-hyde-park-frame-landscape.jpg",
+        "portrait": "assets/exhibits/crystal-palace-hyde-park-frame-portrait.jpg",
+        "wide": "assets/exhibits/crystal-palace-hyde-park-wide.jpg",
+        "standard": "assets/exhibits/crystal-palace-hyde-park-standard.jpg"
+      },
+      "sources": [
+        {
+          "name": "Victoria and Albert Museum · Prefabricated assembly, January completion and 1 May opening",
+          "url": "https://www.vam.ac.uk/articles/the-great-exhibition-of-1851/"
+        },
+        {
+          "name": "The Royal Parks · Great Exhibition opening at Hyde Park on 1 May 1851",
+          "url": "https://www.royalparks.org.uk/read-watch-listen/great-exhibition-1851-hyde-park"
+        },
+        {
+          "name": "The Royal Parks · Modular original building and distinct 1854 reconstruction",
+          "url": "https://www.royalparks.org.uk/visit/parks/hyde-park/things-to-do/great-exhibition-augmented-reality-experience"
+        },
+        {
+          "name": "The Illustrated London News, 7 December 1850, p. 432 · Glazing wagon on four wheels in roof gutters, via Victorian Web",
+          "url": "https://victorianweb.org/victorian/history/1851/construction/9.html"
+        },
+        {
+          "name": "The Illustrated London News, 7 December 1850 · Ridge-and-furrow roof glazing, via Victorian Web",
+          "url": "https://www.victorianweb.org/victorian/history/1851/construction/11.html"
+        }
+      ]
     }
   ]
 }

@@ -69,12 +69,12 @@
       ]
     },
     {
-      "id": "crystal-palace-hyde-park",
-      "name": "Crystal Palace, Hyde Park",
-      "location": "London, United Kingdom",
-      "year": 1851,
-      "story": "Paxton’s original Hyde Park exhibition hall used standardized prefabricated parts assembled rapidly on site: cast-iron columns and horizontal girders supported wooden glazing bars and glass. The building was completed and certified for public use at the end of January 1851. The Great Exhibition opened on 1 May 1851, with season-ticket holders entering before the formal ceremony. The later, altered palace rebuilt in south London opened in 1854 and is a distinct construction phase.",
-      "art_direction": "Show the original Hyde Park building under assembly in late 1850: repeated cast-iron columns and girders, many identical bays, wooden glazing bars and roof panes being installed. Use V&A construction illustrations and contemporary builder records to establish lifting gear, rolling glazing apparatus and roof geometry before drawing machinery. Include the high barrel-vaulted transept only in its documented original form and preserve the elm trees where appropriate. Do not substitute the enlarged 1854 south-London reconstruction. Independently compose Frame orientations with quiet upper-right areas; make repeated components and the transition from bare frame to glazed roof legible in grayscale. This BUILT angle concerns modular assembly and speed, distinct from any sibling-recipe account of the later building’s loss in the 1936 fire.",
+      "id": "centre-pompidou",
+      "name": "Centre Pompidou",
+      "location": "Paris, France",
+      "year": 1977,
+      "story": "Cast-steel gerberettes pivoted at the exterior columns and supported the long-span floor beams, working with exterior tension rods to keep the exhibition floors open. Peter Rice chose cast steel for these sculptural connectors; after an initial test failure, specialist heat treatment helped resolve the fracture problem. The completed building dates to 1977. The owner’s chronology separately records completion of the steel frame on 20 June 1975, inauguration on 31 January 1977 and opening to the public on 2 February 1977.",
+      "art_direction": "Reconstruct installation of one cast-steel gerberette around 1974–1975. Make the pinned column connection, beam bearing and outboard tension-rod connection legible, with repeated exposed portal frames behind. Use owner archive photographs, the architect’s drawings and the Arup collection to establish the actual casting profile, erection sequence, sling arrangement and crane type before artwork. Distinguish cast-steel arms from welded girders; do not show the original rejected competition truss detail as built. Compose landscape and portrait independently, retain quiet upper-right caption areas and preserve connector silhouettes in grayscale. This construction angle concerns casting, testing and structural load transfer, distinct from a general museum or closure story in any sibling recipe.",
       "rating": {
         "recognition": 4,
         "visual_strength": 5,
@@ -91,16 +91,20 @@
       },
       "sources": [
         {
-          "name": "Victoria and Albert Museum · Prefabricated assembly, January completion and 1 May opening",
-          "url": "https://www.vam.ac.uk/articles/the-great-exhibition-of-1851/"
+          "name": "Centre Pompidou · Cast-steel gerberettes, tension rods and open floors",
+          "url": "https://www.centrepompidou.fr/en/pompidou-plus/magazine/article/architectural-secrets-the-centre-pompidous-metallic-exoskeleton"
         },
         {
-          "name": "The Royal Parks · Great Exhibition opening at Hyde Park on 1 May 1851",
-          "url": "https://www.royalparks.org.uk/read-watch-listen/great-exhibition-1851-hyde-park"
+          "name": "Arup · Traces of Peter Rice, Centre Pompidou casting and fracture testing",
+          "url": "https://arupcollection.com/publications/TracesOfPeterRiceArupPhase2_2012.pdf"
         },
         {
-          "name": "The Royal Parks · Modular original building and distinct 1854 reconstruction",
-          "url": "https://www.royalparks.org.uk/visit/parks/hyde-park/things-to-do/great-exhibition-augmented-reality-experience"
+          "name": "Fondazione Renzo Piano · Completed project, 1972–1977 construction and archive drawings",
+          "url": "https://fondazionerenzopiano.org/en/project/centre-georges-pompidou/"
+        },
+        {
+          "name": "Centre Pompidou · 19 January 1984 press dossier, chronology pp. 109–110: steel completion, inauguration and public opening",
+          "url": "https://www.centrepompidou.fr/media/document/bf/0f/bf0f6bf6816697213f2dc44a09737e7a/normal.pdf"
         }
       ]
     }

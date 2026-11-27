@@ -33,42 +33,6 @@
       ]
     },
     {
-      "id": "zollverein-shaft-xii",
-      "name": "Zollverein Shaft XII",
-      "location": "Essen, Germany",
-      "year": 1932,
-      "story": "Zollverein Shaft XII separated its load-bearing steel skeletons from lighter, non-load-bearing steel-grid curtain walls. The independent facade grids enclosed the industrial spaces while leaving the main structure adaptable to changing machinery. Construction ran from 1928 to 1932; the central shaft complex entered operation on 1 February 1932. This subject is the completed Shaft XII buildings, not the later coking plant.",
-      "art_direction": "Show a Shaft XII industrial hall under construction around 1931: heavy internal steel columns and beams behind a lighter external steel facade grid, some grid bays still open and others filled with red brick and glazing. Make the separation of structure and enclosure clear in an interpretive open corner. Use Docomomo drawings and historical construction photographs before placing period lifting gear or workers. The double-bock headframe may appear as a contextual silhouette only after its erection date is verified. No modern escalator or later coking plant. Independently compose Frame orientations with quiet upper-right space; grayscale must distinguish the heavy frame from the thin facade grid. The story concerns industrial building construction, rather than mining decline or present-day reuse.",
-      "rating": {
-        "recognition": 3,
-        "visual_strength": 4,
-        "story_strength": 5,
-        "evidence_clarity": 5,
-        "catalogue_fit": 5,
-        "total": 22
-      },
-      "review": {
-        "fact_check": true,
-        "text_review": false,
-        "image_review": false,
-        "final_approval": false
-      },
-      "sources": [
-        {
-          "name": "Docomomo Germany · Shaft XII chronology and independent steel-grid curtain walls",
-          "url": "https://docomomo.de/images/pdf/2008_essen_zechezollverein_copy_1.pdf"
-        },
-        {
-          "name": "Stiftung Zollverein · 1928–1932 construction and first operation on 1 February 1932",
-          "url": "https://www.zollverein.de/ueber-zollverein/geschichte/"
-        },
-        {
-          "name": "UNESCO nomination · Shaft XII steel framework buildings and facades",
-          "url": "https://whc.unesco.org/uploads/nominations/975.pdf"
-        }
-      ]
-    },
-    {
       "id": "landwasser-viaduct",
       "name": "Landwasser Viaduct",
       "location": "Filisur, Graubünden, Switzerland",
@@ -101,6 +65,42 @@
         {
           "name": "World Heritage Experience Switzerland · Iron frames, electric cranes and completed viaduct",
           "url": "https://unsererbe.ch/poi/der-landwasserviadukt"
+        }
+      ]
+    },
+    {
+      "id": "crystal-palace-hyde-park",
+      "name": "Crystal Palace, Hyde Park",
+      "location": "London, United Kingdom",
+      "year": 1851,
+      "story": "Paxton’s original Hyde Park exhibition hall used standardized prefabricated parts assembled rapidly on site: cast-iron columns and horizontal girders supported wooden glazing bars and glass. The building was completed and certified for public use at the end of January 1851. The Great Exhibition opened on 1 May 1851, with season-ticket holders entering before the formal ceremony. The later, altered palace rebuilt in south London opened in 1854 and is a distinct construction phase.",
+      "art_direction": "Show the original Hyde Park building under assembly in late 1850: repeated cast-iron columns and girders, many identical bays, wooden glazing bars and roof panes being installed. Use V&A construction illustrations and contemporary builder records to establish lifting gear, rolling glazing apparatus and roof geometry before drawing machinery. Include the high barrel-vaulted transept only in its documented original form and preserve the elm trees where appropriate. Do not substitute the enlarged 1854 south-London reconstruction. Independently compose Frame orientations with quiet upper-right areas; make repeated components and the transition from bare frame to glazed roof legible in grayscale. This BUILT angle concerns modular assembly and speed, distinct from any sibling-recipe account of the later building’s loss in the 1936 fire.",
+      "rating": {
+        "recognition": 4,
+        "visual_strength": 5,
+        "story_strength": 5,
+        "evidence_clarity": 5,
+        "catalogue_fit": 5,
+        "total": 24
+      },
+      "review": {
+        "fact_check": true,
+        "text_review": false,
+        "image_review": false,
+        "final_approval": false
+      },
+      "sources": [
+        {
+          "name": "Victoria and Albert Museum · Prefabricated assembly, January completion and 1 May opening",
+          "url": "https://www.vam.ac.uk/articles/the-great-exhibition-of-1851/"
+        },
+        {
+          "name": "The Royal Parks · Great Exhibition opening at Hyde Park on 1 May 1851",
+          "url": "https://www.royalparks.org.uk/read-watch-listen/great-exhibition-1851-hyde-park"
+        },
+        {
+          "name": "The Royal Parks · Modular original building and distinct 1854 reconstruction",
+          "url": "https://www.royalparks.org.uk/visit/parks/hyde-park/things-to-do/great-exhibition-augmented-reality-experience"
         }
       ]
     }
